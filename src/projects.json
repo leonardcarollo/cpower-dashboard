@@ -23,7 +23,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":1000.0,
 "solarNameplate":0.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"Abilene Christian University",
@@ -49,7 +51,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":1000.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.38871603706521,
+"lng":-96.1915370128153
 },
 {
 "client":"Abilene Christian University",
@@ -75,7 +79,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.21406645363072,
+"lng":-96.22450747075627
 },
 {
 "client":"Abilene Christian University",
@@ -101,7 +107,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.95703796192294,
+"lng":-98.67791842719448
 },
 {
 "client":"Abilene Christian University",
@@ -127,7 +135,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.72508897935697,
+"lng":-96.52210813791444
 },
 {
 "client":"Abilene Christian University",
@@ -153,7 +163,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.246758690643656,
+"lng":-96.386348872318
 },
 {
 "client":"Abilene Christian University",
@@ -179,7 +191,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.909209491655236,
+"lng":-98.50846460064562
 },
 {
 "client":"Abilene Christian University",
@@ -205,7 +219,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":29.90530638042504,
+"lng":-96.49579689847526
 },
 {
 "client":"Abilene Christian University",
@@ -231,7 +247,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.574627005896513,
+"lng":-97.2424669436498
 },
 {
 "client":"Abilene Christian University",
@@ -257,7 +275,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.67129701773185,
+"lng":-98.11742589554336
 },
 {
 "client":"Abilene Christian University",
@@ -283,7 +303,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":32.182916002685445,
+"lng":-97.68931734936058
 },
 {
 "client":"Abilene Christian University",
@@ -309,7 +331,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.699083550650762,
+"lng":-97.91292759744184
 },
 {
 "client":"Abilene Christian University",
@@ -335,7 +359,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.76930254901746,
+"lng":-98.85812854110776
 },
 {
 "client":"Abilene Christian University",
@@ -361,7 +387,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.459111485201046,
+"lng":-96.67117277384308
 },
 {
 "client":"Abilene Christian University",
@@ -387,7 +415,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.78184317449924,
+"lng":-98.49749370161283
 },
 {
 "client":"Abilene Christian University",
@@ -413,7 +443,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.30516845496444,
+"lng":-98.96849707806662
 },
 {
 "client":"Abilene Christian University",
@@ -439,7 +471,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":18000.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Adventist Health System West",
@@ -465,7 +499,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":459.23752525252564,
 "solarNameplate":5180.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"Adventist Health System West",
@@ -491,7 +527,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":77.28,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.07144612649539,
+"lng":-119.41012807768902
 },
 {
 "client":"Adventist Health System West",
@@ -517,7 +555,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.23619603682357,
+"lng":-118.35144957920666
 },
 {
 "client":"Adventist Health System West",
@@ -543,7 +583,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Adventist Health System West",
@@ -569,7 +611,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":45.28643494381529,
+"lng":-121.98736551070421
 },
 {
 "client":"Adventist Health System West",
@@ -595,7 +639,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.100838138370506,
+"lng":-121.01873454907803
 },
 {
 "client":"Adventist Health System West",
@@ -621,7 +667,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":1020.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.49427270798681,
+"lng":-120.16124611446673
 },
 {
 "client":"Adventist Health System West",
@@ -647,7 +695,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":93.10000000000001,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.46085243676744,
+"lng":-121.09023305688498
 },
 {
 "client":"Adventist Health System West",
@@ -673,7 +723,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.27522341048507,
+"lng":-120.41510046367146
 },
 {
 "client":"Adventist Health System West",
@@ -699,7 +751,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":750.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.706289602431106,
+"lng":-118.30518649133518
 },
 {
 "client":"Adventist Health System West",
@@ -725,7 +779,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.053310594867945,
+"lng":-119.69603141868046
 },
 {
 "client":"Adventist Health System West",
@@ -751,7 +807,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.63214196367096,
+"lng":-120.87061906711018
 },
 {
 "client":"Adventist Health System West",
@@ -777,7 +835,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":1360.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.59843883766949,
+"lng":-121.0517003109058
 },
 {
 "client":"Adventist Health System West",
@@ -803,7 +863,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":151.93752525252563,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.82652906840806,
+"lng":-118.41003271471753
 },
 {
 "client":"Adventist Health System West",
@@ -829,7 +891,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.90867426963632,
+"lng":-120.13141678507164
 },
 {
 "client":"Adventist Health System West",
@@ -855,7 +919,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":58.10000000000001,
 "solarNameplate":1000.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.13506641067653,
+"lng":-118.64703583755863
 },
 {
 "client":"Adventist Health System West",
@@ -881,7 +947,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":78.82000000000001,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.27405813640133,
+"lng":-119.89331258895236
 },
 {
 "client":"Adventist Health System West",
@@ -907,7 +975,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.67906300454005,
+"lng":-119.35377267531452
 },
 {
 "client":"Adventist Health System West",
@@ -933,7 +1003,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.38716244600923,
+"lng":-123.48936701333427
 },
 {
 "client":"Adventist Health System West",
@@ -959,7 +1031,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":150.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.11274898909657,
+"lng":-119.56824587894458
 },
 {
 "client":"Adventist Health System West",
@@ -985,7 +1059,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.94390970992823,
+"lng":-119.68073401012403
 },
 {
 "client":"Adventist Health System West",
@@ -1011,7 +1087,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":900.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.96372763901235,
+"lng":-119.9406539303007
 },
 {
 "client":"Baptist Health (KY)",
@@ -1037,7 +1115,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Baptist Health (KY)",
@@ -1063,7 +1143,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":38.33974511166012,
+"lng":-83.79820400874064
 },
 {
 "client":"Baptist Health (KY)",
@@ -1089,7 +1171,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":38.47347310734071,
+"lng":-84.6342509779139
 },
 {
 "client":"Baptist Health (KY)",
@@ -1115,7 +1199,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.100817020259,
+"lng":-83.2474070471797
 },
 {
 "client":"Baptist Health (KY)",
@@ -1141,7 +1227,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":38.86247111127861,
+"lng":-84.85802098943742
 },
 {
 "client":"Baptist Health (KY)",
@@ -1167,7 +1255,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.83826775611351,
+"lng":-84.8964139260996
 },
 {
 "client":"Baptist Health (KY)",
@@ -1193,7 +1283,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.078980202863434,
+"lng":-84.01593388714133
 },
 {
 "client":"Baptist Health (KY)",
@@ -1219,7 +1311,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":38.858246374320856,
+"lng":-85.44498738105275
 },
 {
 "client":"Baptist Health (KY)",
@@ -1245,7 +1339,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.761087567824546,
+"lng":-84.16554277288532
 },
 {
 "client":"Baptist Health Arkansas",
@@ -1271,7 +1367,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Baptist Health Arkansas",
@@ -1297,7 +1395,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":42.775548322192606,
+"lng":-93.06469584291258
 },
 {
 "client":"Baptist Health Arkansas",
@@ -1323,7 +1423,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":33.77149389146004,
+"lng":-91.20914126696127
 },
 {
 "client":"Baptist Health Arkansas",
@@ -1349,7 +1451,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.42303317766038,
+"lng":-93.38898819680914
 },
 {
 "client":"Baptist Health Arkansas",
@@ -1375,7 +1479,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.73443423370865,
+"lng":-93.60056228901573
 },
 {
 "client":"Baptist Health Arkansas",
@@ -1401,7 +1507,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.470294911788585,
+"lng":-91.63574451742876
 },
 {
 "client":"Baptist Health Arkansas",
@@ -1427,7 +1535,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.04416740423154,
+"lng":-91.61965613073394
 },
 {
 "client":"Baptist Health Arkansas",
@@ -1453,7 +1563,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.34719010993435,
+"lng":-92.72697596456389
 },
 {
 "client":"Baptist Health Arkansas",
@@ -1479,7 +1591,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.777744590824106,
+"lng":-92.19140955164316
 },
 {
 "client":"Baptist Health Arkansas",
@@ -1505,7 +1619,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.474108675419,
+"lng":-91.36978709694795
 },
 {
 "client":"Baptist Health Arkansas",
@@ -1531,7 +1647,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.70202624288592,
+"lng":-92.92457671257984
 },
 {
 "client":"Beacon Health",
@@ -1557,7 +1675,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Beacon Health",
@@ -1583,7 +1703,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.99163949833935,
+"lng":-86.68195098618197
 },
 {
 "client":"Beacon Health",
@@ -1609,7 +1731,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.27551399132766,
+"lng":-87.55550127810773
 },
 {
 "client":"Beacon Health",
@@ -1635,7 +1759,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Beacon Health",
@@ -1661,7 +1787,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.60647054595913,
+"lng":-85.13914331994451
 },
 {
 "client":"Beacon Health",
@@ -1687,7 +1815,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":42.267049933820246,
+"lng":-85.34037989069563
 },
 {
 "client":"Beacon Health",
@@ -1713,7 +1843,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":42.87618507842065,
+"lng":-85.70467453098755
 },
 {
 "client":"Beacon Health",
@@ -1739,7 +1871,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.78485313158557,
+"lng":-85.34357910725025
 },
 {
 "client":"Beacon Health",
@@ -1765,7 +1899,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.51348159994601,
+"lng":-83.40746857402765
 },
 {
 "client":"Beacon Health",
@@ -1791,7 +1927,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.02349582933005,
+"lng":-84.34033695539422
 },
 {
 "client":"Beacon Health",
@@ -1817,7 +1955,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":42.425739850177266,
+"lng":-85.7564992703928
 },
 {
 "client":"Beacon Health",
@@ -1843,7 +1983,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.27985271176213,
+"lng":-85.2118608422768
 },
 {
 "client":"CHRISTUS Health",
@@ -1869,7 +2011,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":1000.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"CHRISTUS Health",
@@ -1895,7 +2039,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":32.155200976120135,
+"lng":-98.56418654403721
 },
 {
 "client":"CHRISTUS Health",
@@ -1921,7 +2067,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":1000.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.195759657616914,
+"lng":-96.37316456077876
 },
 {
 "client":"CHRISTUS Health",
@@ -1947,7 +2095,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.648900896387328,
+"lng":-90.77544141601618
 },
 {
 "client":"CHRISTUS Health",
@@ -1973,7 +2123,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.29644115174312,
+"lng":-97.15708881386242
 },
 {
 "client":"CHRISTUS Health",
@@ -1999,7 +2151,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.75277711983381,
+"lng":-96.41094459383773
 },
 {
 "client":"CHRISTUS Health",
@@ -2025,7 +2179,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.845328116781996,
+"lng":-91.71206661225835
 },
 {
 "client":"CHRISTUS Health",
@@ -2051,7 +2207,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.87700067120737,
+"lng":-105.48137435823678
 },
 {
 "client":"CHRISTUS Health",
@@ -2077,7 +2235,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.54089798743232,
+"lng":-105.28681813796491
 },
 {
 "client":"CHRISTUS Health",
@@ -2103,7 +2263,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.87471262174211,
+"lng":-97.14503115495171
 },
 {
 "client":"CHRISTUS Health",
@@ -2129,7 +2291,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":32.23778724969083,
+"lng":-96.41156990397675
 },
 {
 "client":"CHRISTUS Health",
@@ -2155,7 +2319,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":29.858164170360567,
+"lng":-97.58699432594607
 },
 {
 "client":"CHRISTUS Health",
@@ -2181,7 +2347,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.79679691668352,
+"lng":-97.63448616714027
 },
 {
 "client":"CHRISTUS Health",
@@ -2207,7 +2375,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.369810604772635,
+"lng":-98.81024331336722
 },
 {
 "client":"CHRISTUS Health",
@@ -2233,7 +2403,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.402592874372758,
+"lng":-96.9700002168931
 },
 {
 "client":"CHRISTUS Health",
@@ -2259,7 +2431,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.012830261828707,
+"lng":-96.60927492104098
 },
 {
 "client":"CHRISTUS Health",
@@ -2285,7 +2459,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.890855483932405,
+"lng":-98.02755393166346
 },
 {
 "client":"CHRISTUS Health",
@@ -2311,7 +2487,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.93409902859932,
+"lng":-96.76780884046364
 },
 {
 "client":"CHRISTUS Health",
@@ -2337,7 +2515,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.825069348439598,
+"lng":-97.99646919210548
 },
 {
 "client":"CHRISTUS Health",
@@ -2363,7 +2543,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.43198165571921,
+"lng":-97.97173391887709
 },
 {
 "client":"CHRISTUS Health",
@@ -2389,7 +2571,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.08392593186772,
+"lng":-96.7959628214869
 },
 {
 "client":"CHRISTUS Health",
@@ -2415,7 +2599,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.6902835678529,
+"lng":-97.21371188818466
 },
 {
 "client":"CHRISTUS Health",
@@ -2441,7 +2627,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.660916345893366,
+"lng":-92.9208941860248
 },
 {
 "client":"CHRISTUS Health",
@@ -2467,7 +2655,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.209624673285706,
+"lng":-91.31060002958125
 },
 {
 "client":"CHRISTUS Health",
@@ -2493,7 +2683,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":32.12696264290998,
+"lng":-96.0667840832616
 },
 {
 "client":"CHRISTUS Health",
@@ -2519,7 +2711,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":32.23674266328059,
+"lng":-98.26395067712431
 },
 {
 "client":"Clinton Sustainable Energy District",
@@ -2545,7 +2739,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":5000.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"Clinton Sustainable Energy District",
@@ -2571,7 +2767,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":5000.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.13667417658716,
+"lng":-93.48855822402768
 },
 {
 "client":"Clinton Sustainable Energy District",
@@ -2597,7 +2795,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.457388684762606,
+"lng":-91.90223422835925
 },
 {
 "client":"Clinton Sustainable Energy District",
@@ -2623,7 +2823,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.22169839730762,
+"lng":-92.46686102230194
 },
 {
 "client":"Community Foundation of Northwest Indiana",
@@ -2649,7 +2851,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":2850.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"Community Foundation of Northwest Indiana",
@@ -2675,7 +2879,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":38.87628913041669,
+"lng":-87.00770346334413
 },
 {
 "client":"Community Foundation of Northwest Indiana",
@@ -2701,7 +2907,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":2850.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.99288609759633,
+"lng":-84.88810841141205
 },
 {
 "client":"Community Foundation of Northwest Indiana",
@@ -2727,7 +2935,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.76951398885465,
+"lng":-85.50538221790785
 },
 {
 "client":"Community Foundation of Northwest Indiana",
@@ -2753,7 +2963,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.465091901937015,
+"lng":-86.32610865859735
 },
 {
 "client":"Community Foundation of Northwest Indiana",
@@ -2779,7 +2991,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.31941893165274,
+"lng":-87.2270901204064
 },
 {
 "client":"Community Foundation of Northwest Indiana",
@@ -2805,7 +3019,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.101097326099826,
+"lng":-86.99381404600902
 },
 {
 "client":"Conway Medical Center",
@@ -2831,7 +3047,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":100.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"Conway Medical Center",
@@ -2857,7 +3075,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":100.0,
-"include":"Yes"
+"include":"Yes",
+"lat":32.91878987026531,
+"lng":-79.45149152797501
 },
 {
 "client":"East Alabama Medical Center",
@@ -2883,7 +3103,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"East Alabama Medical Center",
@@ -2909,7 +3131,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":33.559838662138375,
+"lng":-88.22551585209256
 },
 {
 "client":"East Alabama Medical Center",
@@ -2935,7 +3159,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":32.5448313832395,
+"lng":-85.76754756542569
 },
 {
 "client":"East Alabama Medical Center",
@@ -2961,7 +3187,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":32.24630634203803,
+"lng":-87.83632023710739
 },
 {
 "client":"East Alabama Medical Center",
@@ -2987,7 +3215,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":32.60204928769974,
+"lng":-87.7278500727933
 },
 {
 "client":"Hackensack Meridian Health",
@@ -3013,7 +3243,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":1700.0,
 "solarNameplate":15634.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"Hackensack Meridian Health",
@@ -3039,7 +3271,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":1500.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.43170740699435,
+"lng":-75.1575952889455
 },
 {
 "client":"Hackensack Meridian Health",
@@ -3065,7 +3299,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":2350.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.03581132292729,
+"lng":-74.12785220609878
 },
 {
 "client":"Hackensack Meridian Health",
@@ -3091,7 +3327,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":1150.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.504195861896484,
+"lng":-73.05858573487099
 },
 {
 "client":"Hackensack Meridian Health",
@@ -3117,7 +3355,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":650.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.853156500176205,
+"lng":-73.71326585719021
 },
 {
 "client":"Hackensack Meridian Health",
@@ -3143,7 +3383,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":1283.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.95051797166756,
+"lng":-75.82862372511886
 },
 {
 "client":"Hackensack Meridian Health",
@@ -3169,7 +3411,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":413.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.892847198922745,
+"lng":-73.28761866714076
 },
 {
 "client":"Hackensack Meridian Health",
@@ -3195,7 +3439,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":250.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.23706193777593,
+"lng":-74.29782648560845
 },
 {
 "client":"Hackensack Meridian Health",
@@ -3221,7 +3467,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":3875.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.23825090619688,
+"lng":-75.67390267192282
 },
 {
 "client":"Hackensack Meridian Health",
@@ -3247,7 +3495,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":1700.0,
 "solarNameplate":1813.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.12780279916875,
+"lng":-74.6844984446944
 },
 {
 "client":"Hackensack Meridian Health",
@@ -3273,7 +3523,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":1800.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.96367397806414,
+"lng":-73.13389377527425
 },
 {
 "client":"Hackensack Meridian Health",
@@ -3299,7 +3551,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":250.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.97884222497992,
+"lng":-73.51415367149987
 },
 {
 "client":"Hackensack Meridian Health",
@@ -3325,7 +3579,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":300.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.02230267414739,
+"lng":-73.28917359247816
 },
 {
 "client":"Hampton University",
@@ -3351,7 +3607,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Hampton University",
@@ -3377,7 +3635,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.05273500073731,
+"lng":-78.43386592961238
 },
 {
 "client":"Hampton University",
@@ -3403,7 +3663,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Hartford HealthCare",
@@ -3429,7 +3691,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":167.0,
 "solarNameplate":0.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"Hartford HealthCare",
@@ -3455,7 +3719,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":42.739350576796745,
+"lng":-73.4984814101658
 },
 {
 "client":"Hartford HealthCare",
@@ -3481,7 +3747,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.645249883814415,
+"lng":-72.2526332377158
 },
 {
 "client":"Hartford HealthCare",
@@ -3507,7 +3775,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":167.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.21754563851922,
+"lng":-72.31023439829313
 },
 {
 "client":"Hartford HealthCare",
@@ -3533,7 +3803,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.03655180448206,
+"lng":-72.32606155820935
 },
 {
 "client":"Hartford HealthCare",
@@ -3559,7 +3831,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":42.054610101136745,
+"lng":-72.58744401007162
 },
 {
 "client":"Hartford HealthCare",
@@ -3585,7 +3859,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":42.5055774373417,
+"lng":-71.70253108053942
 },
 {
 "client":"Hartford HealthCare",
@@ -3611,7 +3887,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":42.03814653185799,
+"lng":-72.87750873653003
 },
 {
 "client":"Hawaii Pacific Health",
@@ -3637,7 +3915,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Hawaii Pacific Health",
@@ -3663,7 +3943,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":20.870347177640536,
+"lng":-158.62451388367137
 },
 {
 "client":"Hawaii Pacific Health",
@@ -3689,7 +3971,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":20.430712871145772,
+"lng":-158.10517864372093
 },
 {
 "client":"Hawaii Pacific Health",
@@ -3715,7 +3999,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":22.188124461968112,
+"lng":-158.95240647343226
 },
 {
 "client":"Hawaii Pacific Health",
@@ -3741,7 +4027,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":20.11428648897628,
+"lng":-157.47445526726247
 },
 {
 "client":"HCA Healthcare",
@@ -3767,7 +4055,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":250.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"HCA Healthcare",
@@ -3793,7 +4083,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.31637937679776,
+"lng":-119.83099621499923
 },
 {
 "client":"HCA Healthcare",
@@ -3819,7 +4111,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.774824601526056,
+"lng":-120.6933142606277
 },
 {
 "client":"HCA Healthcare",
@@ -3845,7 +4139,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.18030914739805,
+"lng":-119.2839634787766
 },
 {
 "client":"HCA Healthcare",
@@ -3871,7 +4167,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.73997082650117,
+"lng":-121.16676324922328
 },
 {
 "client":"HCA Healthcare",
@@ -3897,7 +4195,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":250.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.67669721957223,
+"lng":-120.50303109504779
 },
 {
 "client":"HCA Healthcare",
@@ -3923,7 +4223,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":61.63133581435804,
+"lng":-151.64793620546183
 },
 {
 "client":"Indiana University Health",
@@ -3949,7 +4251,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Indiana University Health",
@@ -3975,7 +4279,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.284291448747325,
+"lng":-86.35213513784367
 },
 {
 "client":"Indiana University Health",
@@ -4001,7 +4307,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.414053945495496,
+"lng":-85.59335983823404
 },
 {
 "client":"Indiana University Health",
@@ -4027,7 +4335,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.09515991689632,
+"lng":-85.21373603593963
 },
 {
 "client":"Indiana University Health",
@@ -4053,7 +4363,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.14738150631276,
+"lng":-84.8048998916864
 },
 {
 "client":"Indiana University Health",
@@ -4079,7 +4391,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.72889764702705,
+"lng":-84.89541061077405
 },
 {
 "client":"Indiana University Health",
@@ -4105,7 +4419,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.752083201972454,
+"lng":-84.80564454832788
 },
 {
 "client":"Indiana University Health",
@@ -4131,7 +4447,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.47037224120937,
+"lng":-85.41240045605655
 },
 {
 "client":"Indiana University Health",
@@ -4157,7 +4475,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.24445486802995,
+"lng":-86.95626441966343
 },
 {
 "client":"Indiana University Health",
@@ -4183,7 +4503,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.5275767384654,
+"lng":-87.11714728037656
 },
 {
 "client":"Indiana University Health",
@@ -4209,7 +4531,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.599775770757795,
+"lng":-86.37426175167434
 },
 {
 "client":"Indiana University Health",
@@ -4235,7 +4559,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.49696876523515,
+"lng":-85.26274350449053
 },
 {
 "client":"Indiana University Health",
@@ -4261,7 +4587,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.84303675441712,
+"lng":-85.92054945390407
 },
 {
 "client":"Indiana University Health",
@@ -4287,7 +4615,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.93777799674063,
+"lng":-84.9399158558358
 },
 {
 "client":"Indiana University Health",
@@ -4313,7 +4643,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.16756902216752,
+"lng":-85.77509572599064
 },
 {
 "client":"Indiana University Health",
@@ -4339,7 +4671,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.01753694428577,
+"lng":-87.50965448990968
 },
 {
 "client":"Indiana University Health",
@@ -4365,7 +4699,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.311749717097115,
+"lng":-87.72504353605436
 },
 {
 "client":"Indiana University Health",
@@ -4391,7 +4727,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.68703306139127,
+"lng":-87.47314399094887
 },
 {
 "client":"LCMC Health",
@@ -4417,7 +4755,9 @@
 "existingNameplate":13950.0,
 "facilitiesNameplate":588.0,
 "solarNameplate":0.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"LCMC Health",
@@ -4443,7 +4783,9 @@
 "existingNameplate":2000.0,
 "facilitiesNameplate":200.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.747001009292468,
+"lng":-91.83758132298662
 },
 {
 "client":"LCMC Health",
@@ -4469,7 +4811,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":200.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.115937926902095,
+"lng":-90.82257672510892
 },
 {
 "client":"LCMC Health",
@@ -4495,7 +4839,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.902682814849097,
+"lng":-92.73193145915666
 },
 {
 "client":"LCMC Health",
@@ -4521,7 +4867,9 @@
 "existingNameplate":600.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.5540728170649,
+"lng":-92.4433709050668
 },
 {
 "client":"LCMC Health",
@@ -4547,7 +4895,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.861853932700615,
+"lng":-93.14257038682544
 },
 {
 "client":"LCMC Health",
@@ -4573,7 +4923,9 @@
 "existingNameplate":7850.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.769161019098988,
+"lng":-90.4435879740806
 },
 {
 "client":"LCMC Health",
@@ -4599,7 +4951,9 @@
 "existingNameplate":3500.0,
 "facilitiesNameplate":188.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.01640857632743,
+"lng":-93.26763490597426
 },
 {
 "client":"LCMC Health",
@@ -4625,7 +4979,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.32159122037274,
+"lng":-91.55870598824315
 },
 {
 "client":"Lehigh Valley Health Network",
@@ -4651,7 +5007,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":727.0,
 "solarNameplate":2692.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"Lehigh Valley Health Network",
@@ -4677,7 +5035,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":355.0,
 "solarNameplate":250.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.05772556362571,
+"lng":-76.15628521531528
 },
 {
 "client":"Lehigh Valley Health Network",
@@ -4703,7 +5063,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":181.0,
 "solarNameplate":150.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.596489887767206,
+"lng":-76.57652986679511
 },
 {
 "client":"Lehigh Valley Health Network",
@@ -4729,7 +5091,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":54.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.25462694430632,
+"lng":-77.30751480516554
 },
 {
 "client":"Lehigh Valley Health Network",
@@ -4755,7 +5119,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":83.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.928721359283735,
+"lng":-78.60443619753933
 },
 {
 "client":"Lehigh Valley Health Network",
@@ -4781,7 +5147,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.956920360250756,
+"lng":-77.12821726688188
 },
 {
 "client":"Lehigh Valley Health Network",
@@ -4807,7 +5175,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":1976.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.688866101062196,
+"lng":-76.84245217027411
 },
 {
 "client":"Lehigh Valley Health Network",
@@ -4833,7 +5203,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.24447182402153,
+"lng":-77.18435540054413
 },
 {
 "client":"Lehigh Valley Health Network",
@@ -4859,7 +5231,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":54.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.74864649608897,
+"lng":-75.85809611225977
 },
 {
 "client":"Lehigh Valley Health Network",
@@ -4885,7 +5259,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":100.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.56646288095073,
+"lng":-76.17459705084673
 },
 {
 "client":"Lehigh Valley Health Network",
@@ -4911,7 +5287,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":216.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.90440924647495,
+"lng":-76.6805068632847
 },
 {
 "client":"Lehigh Valley Health Network",
@@ -4937,7 +5315,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.96293324943505,
+"lng":-77.6299696372137
 },
 {
 "client":"Lehigh Valley Health Network",
@@ -4963,7 +5343,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.550838107174286,
+"lng":-77.5828193653454
 },
 {
 "client":"Lehigh Valley Health Network",
@@ -4989,7 +5371,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.336274408449995,
+"lng":-77.81393342067244
 },
 {
 "client":"Loma Linda University Health",
@@ -5015,7 +5399,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":1101.0,
 "solarNameplate":1380.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"Loma Linda University Health",
@@ -5041,7 +5427,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":1101.0,
 "solarNameplate":1380.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.07486481856765,
+"lng":-120.46107089259435
 },
 {
 "client":"Loma Linda University Health",
@@ -5067,7 +5455,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.126950129432274,
+"lng":-120.06608298432889
 },
 {
 "client":"Loma Linda University Health",
@@ -5093,7 +5483,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.8177303566604,
+"lng":-119.67406017835481
 },
 {
 "client":"Loma Linda University Health",
@@ -5119,7 +5511,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.96726243806076,
+"lng":-120.11853025949235
 },
 {
 "client":"Loma Linda University Health",
@@ -5145,7 +5539,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.92740956469701,
+"lng":-118.65300300668179
 },
 {
 "client":"Loma Linda University Health",
@@ -5171,7 +5567,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.61038936651176,
+"lng":-119.31851077693265
 },
 {
 "client":"Loma Linda University Health",
@@ -5197,7 +5595,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.36041726964288,
+"lng":-119.77546653916102
 },
 {
 "client":"Loma Linda University Health",
@@ -5223,7 +5623,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.322419073926326,
+"lng":-120.88350658574916
 },
 {
 "client":"Louisiana State University",
@@ -5249,7 +5651,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"MaineHealth",
@@ -5275,7 +5679,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":650.0,
 "solarNameplate":0.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"MaineHealth",
@@ -5301,7 +5707,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":650.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.45978433332129,
+"lng":-70.59415782934808
 },
 {
 "client":"MaineHealth",
@@ -5327,7 +5735,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.83721822357081,
+"lng":-70.42564508043276
 },
 {
 "client":"MaineHealth",
@@ -5353,7 +5763,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.65352477941974,
+"lng":-70.25917790873171
 },
 {
 "client":"MaineHealth",
@@ -5379,7 +5791,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":45.42629129695164,
+"lng":-68.86877448111584
 },
 {
 "client":"MaineHealth",
@@ -5405,7 +5819,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":45.05022249435193,
+"lng":-69.48025229930062
 },
 {
 "client":"MaineHealth",
@@ -5431,7 +5847,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.76405923316835,
+"lng":-69.84343304917745
 },
 {
 "client":"MaineHealth",
@@ -5457,7 +5875,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":45.19145262637202,
+"lng":-69.00089808845796
 },
 {
 "client":"MaineHealth",
@@ -5483,7 +5903,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.903307164727465,
+"lng":-70.3881108566677
 },
 {
 "client":"MaineHealth",
@@ -5509,7 +5931,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":42.93564542381968,
+"lng":-71.44343704726354
 },
 {
 "client":"MaineHealth",
@@ -5535,7 +5959,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.716021778541005,
+"lng":-68.98976093468147
 },
 {
 "client":"MaineHealth",
@@ -5561,7 +5987,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.822161544824965,
+"lng":-70.43834062112222
 },
 {
 "client":"MaineHealth",
@@ -5587,7 +6015,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.05997839045323,
+"lng":-70.79892089387583
 },
 {
 "client":"MaineHealth",
@@ -5613,7 +6043,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.914177897693136,
+"lng":-69.85704783487533
 },
 {
 "client":"MaineHealth",
@@ -5639,7 +6071,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.341674964761104,
+"lng":-69.8250488141546
 },
 {
 "client":"MaineHealth",
@@ -5665,7 +6099,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.735104155801515,
+"lng":-70.23234737499662
 },
 {
 "client":"MaineHealth",
@@ -5691,7 +6127,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":45.74210725908873,
+"lng":-69.82902872910665
 },
 {
 "client":"Maury Regional Health",
@@ -5717,7 +6155,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Maury Regional Health",
@@ -5743,7 +6183,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.117455472294566,
+"lng":-87.83327389078613
 },
 {
 "client":"Medical Center Health (TX)",
@@ -5769,7 +6211,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":579.0,
 "solarNameplate":9000.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"Medical Center Health (TX)",
@@ -5795,7 +6239,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":246.0,
 "solarNameplate":9000.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.36371620573287,
+"lng":-98.94466471252882
 },
 {
 "client":"Medical Center Health (TX)",
@@ -5821,7 +6267,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":333.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.873483090362946,
+"lng":-97.20721487170199
 },
 {
 "client":"Medical Center Health (TX)",
@@ -5847,7 +6295,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.31051693000712,
+"lng":-98.25809473411958
 },
 {
 "client":"Medical Center Health (TX)",
@@ -5873,7 +6323,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.742086099625222,
+"lng":-96.93353293442007
 },
 {
 "client":"Medical Center Health (TX)",
@@ -5899,7 +6351,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.41026464979849,
+"lng":-98.43307349358307
 },
 {
 "client":"Medical Center Health (TX)",
@@ -5925,7 +6379,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.976072886382685,
+"lng":-98.26476741177842
 },
 {
 "client":"Memorial Health (IL)",
@@ -5951,7 +6407,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":3300.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"Memorial Health (IL)",
@@ -5977,7 +6435,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":750.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.54490054152451,
+"lng":-90.27612637030566
 },
 {
 "client":"Memorial Health (IL)",
@@ -6003,7 +6463,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":1800.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.471369423071096,
+"lng":-88.9679913714487
 },
 {
 "client":"Memorial Health (IL)",
@@ -6029,7 +6491,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":750.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.28124051162301,
+"lng":-89.71149526992752
 },
 {
 "client":"Memorial Health (IL)",
@@ -6055,7 +6519,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.09921909306088,
+"lng":-88.6382330874625
 },
 {
 "client":"Memorial Health (IL)",
@@ -6081,7 +6547,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.36200297404076,
+"lng":-87.6688730449421
 },
 {
 "client":"Memorial Hermann",
@@ -6107,7 +6575,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Midland Health",
@@ -6133,7 +6603,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Midland Health",
@@ -6159,7 +6631,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":200.0,
 "solarNameplate":0.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"Midland Health",
@@ -6185,7 +6659,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":200.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.153519216727116,
+"lng":-96.35129844524526
 },
 {
 "client":"Midland Health",
@@ -6211,7 +6687,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.024333381190814,
+"lng":-96.5212752486422
 },
 {
 "client":"MultiCare Health System",
@@ -6237,7 +6715,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":2450.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"MultiCare Health System",
@@ -6263,7 +6743,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":47.608003359124574,
+"lng":-122.97694786800764
 },
 {
 "client":"MultiCare Health System",
@@ -6289,7 +6771,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":47.97886718833034,
+"lng":-122.09607351105025
 },
 {
 "client":"MultiCare Health System",
@@ -6315,7 +6799,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":1200.0,
-"include":"Yes"
+"include":"Yes",
+"lat":46.77057611734528,
+"lng":-120.19913686364129
 },
 {
 "client":"MultiCare Health System",
@@ -6341,7 +6827,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":1250.0,
-"include":"Yes"
+"include":"Yes",
+"lat":47.13739036936215,
+"lng":-121.839675193333
 },
 {
 "client":"MultiCare Health System",
@@ -6367,7 +6855,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":47.30634415389382,
+"lng":-120.5508052642847
 },
 {
 "client":"MultiCare Health System",
@@ -6393,7 +6883,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":47.87671585521481,
+"lng":-122.39886000161853
 },
 {
 "client":"MultiCare Health System",
@@ -6419,7 +6911,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":47.09389143584124,
+"lng":-121.27667273113853
 },
 {
 "client":"MultiCare Health System",
@@ -6445,7 +6939,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":47.62071673224058,
+"lng":-120.06419492249987
 },
 {
 "client":"MultiCare Health System",
@@ -6471,7 +6967,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":47.31584825462274,
+"lng":-122.36402275743708
 },
 {
 "client":"MultiCare Health System",
@@ -6497,7 +6995,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":46.30122626942002,
+"lng":-120.61711901286215
 },
 {
 "client":"MultiCare Health System",
@@ -6523,7 +7023,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":46.36572281137029,
+"lng":-122.69329477291309
 },
 {
 "client":"Northwestern Medicine",
@@ -6549,7 +7051,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.1001698680615,
+"lng":-90.08411228848156
 },
 {
 "client":"Northwestern Medicine",
@@ -6575,7 +7079,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.52016466213876,
+"lng":-89.98683404600357
 },
 {
 "client":"Northwestern Medicine",
@@ -6601,7 +7107,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.176899187001204,
+"lng":-89.74878423757619
 },
 {
 "client":"Northwestern Medicine",
@@ -6627,7 +7135,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.6933173150845,
+"lng":-87.9455674338666
 },
 {
 "client":"Northwestern Medicine",
@@ -6653,7 +7163,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.497292462438736,
+"lng":-89.3055013272628
 },
 {
 "client":"Northwestern Medicine",
@@ -6679,7 +7191,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.321063736798,
+"lng":-88.48499435427168
 },
 {
 "client":"Northwestern Medicine",
@@ -6705,7 +7219,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.26290228483061,
+"lng":-87.89871849491843
 },
 {
 "client":"Northwestern Medicine",
@@ -6731,7 +7247,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.68353163929034,
+"lng":-88.46188287581536
 },
 {
 "client":"Northwestern Medicine",
@@ -6757,7 +7275,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.45860063408638,
+"lng":-89.84030051243394
 },
 {
 "client":"Northwestern Medicine",
@@ -6783,7 +7303,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.50902990166263,
+"lng":-88.10672430399912
 },
 {
 "client":"Northwestern Medicine",
@@ -6809,7 +7331,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.209095230689144,
+"lng":-88.69984119443545
 },
 {
 "client":"Northwestern Medicine",
@@ -6835,7 +7359,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.2747242717069,
+"lng":-88.0778631381384
 },
 {
 "client":"Novant Health",
@@ -6861,7 +7387,9 @@
 "existingNameplate":38440.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"Novant Health",
@@ -6887,7 +7415,9 @@
 "existingNameplate":3000.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.15860558696387,
+"lng":-79.67475042767575
 },
 {
 "client":"Novant Health",
@@ -6913,7 +7443,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.67707877769582,
+"lng":-79.20603974675176
 },
 {
 "client":"Novant Health",
@@ -6939,7 +7471,9 @@
 "existingNameplate":2000.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.83151428554076,
+"lng":-80.27421679049857
 },
 {
 "client":"Novant Health",
@@ -6965,7 +7499,9 @@
 "existingNameplate":4840.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.84141951406838,
+"lng":-79.15489500927251
 },
 {
 "client":"Novant Health",
@@ -6991,7 +7527,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":33.037731629021536,
+"lng":-81.37398979484695
 },
 {
 "client":"Novant Health",
@@ -7017,7 +7555,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":33.39041588687385,
+"lng":-81.29120323938835
 },
 {
 "client":"Novant Health",
@@ -7043,7 +7583,9 @@
 "existingNameplate":13250.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.97823049977597,
+"lng":-79.63688098252028
 },
 {
 "client":"Novant Health",
@@ -7069,7 +7611,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":33.98355051003391,
+"lng":-81.32964508594667
 },
 {
 "client":"Novant Health",
@@ -7095,7 +7639,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.46251723619647,
+"lng":-79.02803393983663
 },
 {
 "client":"Novant Health",
@@ -7121,7 +7667,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.41162859310959,
+"lng":-79.3687076687117
 },
 {
 "client":"Novant Health",
@@ -7147,7 +7695,9 @@
 "existingNameplate":4500.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.17165141326099,
+"lng":-79.17432358039697
 },
 {
 "client":"Novant Health",
@@ -7173,7 +7723,9 @@
 "existingNameplate":750.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.140921616779565,
+"lng":-79.88949626087481
 },
 {
 "client":"Novant Health",
@@ -7199,7 +7751,9 @@
 "existingNameplate":3000.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.198211266878545,
+"lng":-80.20545099883155
 },
 {
 "client":"Novant Health",
@@ -7225,7 +7779,9 @@
 "existingNameplate":350.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.567906903980436,
+"lng":-79.83921264534
 },
 {
 "client":"Novant Health",
@@ -7251,7 +7807,9 @@
 "existingNameplate":2250.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.77853945646262,
+"lng":-78.90067636997252
 },
 {
 "client":"Novant Health",
@@ -7277,7 +7835,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.09314267319936,
+"lng":-80.67260161065055
 },
 {
 "client":"Novant Health",
@@ -7303,7 +7863,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.447311888540064,
+"lng":-79.2556770837516
 },
 {
 "client":"Novant Health",
@@ -7329,7 +7891,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.30656497128275,
+"lng":-80.58247637744807
 },
 {
 "client":"Novant Health",
@@ -7355,7 +7919,9 @@
 "existingNameplate":4500.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.52640561097271,
+"lng":-78.51407756818195
 },
 {
 "client":"Ochsner Health",
@@ -7381,7 +7947,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":750.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Ochsner Health",
@@ -7407,7 +7975,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Franciscan Missionaries of Our Lady Health System",
@@ -7433,7 +8003,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"PIH",
@@ -7459,7 +8031,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":125.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"PIH",
@@ -7485,7 +8059,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.23519201687822,
+"lng":-119.20424634879343
 },
 {
 "client":"PIH",
@@ -7511,7 +8087,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.92353485280713,
+"lng":-118.81148055574485
 },
 {
 "client":"PIH",
@@ -7537,7 +8115,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":125.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.95875118540542,
+"lng":-120.04817964138977
 },
 {
 "client":"PIH",
@@ -7563,7 +8143,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"PIH",
@@ -7589,7 +8171,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.696283140605274,
+"lng":-118.91219514605875
 },
 {
 "client":"PIH",
@@ -7615,7 +8199,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.10918820882114,
+"lng":-119.4251983092123
 },
 {
 "client":"PIH",
@@ -7641,7 +8227,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.703840401642715,
+"lng":-119.1179171085087
 },
 {
 "client":"PIH",
@@ -7667,7 +8255,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.0551634343329,
+"lng":-118.66529032426162
 },
 {
 "client":"PIH",
@@ -7693,7 +8283,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.776907338030995,
+"lng":-118.54405161215956
 },
 {
 "client":"PIH",
@@ -7719,7 +8311,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.113832163658564,
+"lng":-120.26584816438874
 },
 {
 "client":"PIH",
@@ -7745,7 +8339,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.26348817909029,
+"lng":-120.67800545308548
 },
 {
 "client":"Prisma Health",
@@ -7771,7 +8367,9 @@
 "existingNameplate":19155.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":4328.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"Prisma Health",
@@ -7797,7 +8395,9 @@
 "existingNameplate":1715.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":33.368654869698645,
+"lng":-82.16207070721336
 },
 {
 "client":"Prisma Health",
@@ -7823,7 +8423,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":33.61894674355621,
+"lng":-79.93282161758857
 },
 {
 "client":"Prisma Health",
@@ -7849,7 +8451,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":33.47556910077855,
+"lng":-79.83628147075345
 },
 {
 "client":"Prisma Health",
@@ -7875,7 +8479,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":33.40968101183373,
+"lng":-80.69939337933359
 },
 {
 "client":"Prisma Health",
@@ -7901,7 +8507,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":32.88418792530728,
+"lng":-82.12180656391892
 },
 {
 "client":"Prisma Health",
@@ -7927,7 +8535,9 @@
 "existingNameplate":2100.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.79722834621271,
+"lng":-81.52943512773945
 },
 {
 "client":"Prisma Health",
@@ -7953,7 +8563,9 @@
 "existingNameplate":7900.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":33.7848733098697,
+"lng":-82.37375295951786
 },
 {
 "client":"Prisma Health",
@@ -7979,7 +8591,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":1250.0,
-"include":"Yes"
+"include":"Yes",
+"lat":33.67538454531507,
+"lng":-79.50021639110989
 },
 {
 "client":"Prisma Health",
@@ -8005,7 +8619,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":1025.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.114542473358114,
+"lng":-85.75486155898443
 },
 {
 "client":"Prisma Health",
@@ -8031,7 +8647,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":2053.0,
-"include":"Yes"
+"include":"Yes",
+"lat":33.21560387186111,
+"lng":-79.44999328527155
 },
 {
 "client":"Prisma Health",
@@ -8057,7 +8675,9 @@
 "existingNameplate":1100.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":33.8514926600234,
+"lng":-80.86344529941086
 },
 {
 "client":"Prisma Health",
@@ -8083,7 +8703,9 @@
 "existingNameplate":5540.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":33.413846729537326,
+"lng":-81.55324026383605
 },
 {
 "client":"Prisma Health",
@@ -8109,7 +8731,9 @@
 "existingNameplate":800.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":32.71996236092431,
+"lng":-81.42687876425614
 },
 {
 "client":"LCMC Health",
@@ -8135,7 +8759,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Rochester Regional Health",
@@ -8161,7 +8787,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Rochester Regional Health",
@@ -8187,7 +8815,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.95883665107642,
+"lng":-74.46993047111583
 },
 {
 "client":"Rochester Regional Health",
@@ -8213,7 +8843,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.23034784330496,
+"lng":-75.12698338267148
 },
 {
 "client":"Rochester Regional Health",
@@ -8239,7 +8871,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.87472026829323,
+"lng":-74.63776568113401
 },
 {
 "client":"Rochester Regional Health",
@@ -8265,7 +8899,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":42.568691708032055,
+"lng":-76.07250524388758
 },
 {
 "client":"Rochester Regional Health",
@@ -8291,7 +8927,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.24986904620606,
+"lng":-73.73692708664882
 },
 {
 "client":"Rochester Regional Health",
@@ -8317,7 +8955,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.109861616158405,
+"lng":-73.99983566107167
 },
 {
 "client":"Rochester Regional Health",
@@ -8343,7 +8983,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.266761868694424,
+"lng":-73.47886045853207
 },
 {
 "client":"Rochester Regional Health",
@@ -8369,7 +9011,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":42.75243392158896,
+"lng":-74.08345399379267
 },
 {
 "client":"Rochester Regional Health",
@@ -8395,7 +9039,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.8235864959424,
+"lng":-74.16713615799986
 },
 {
 "client":"RWJ Barnabas",
@@ -8421,7 +9067,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"RWJ Barnabas",
@@ -8447,7 +9095,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.5823137156931,
+"lng":-75.43775832737991
 },
 {
 "client":"RWJ Barnabas",
@@ -8473,7 +9123,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.85603681122168,
+"lng":-75.24786864728694
 },
 {
 "client":"RWJ Barnabas",
@@ -8499,7 +9151,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.449424596145185,
+"lng":-75.50117158251463
 },
 {
 "client":"RWJ Barnabas",
@@ -8525,7 +9179,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.460317858403855,
+"lng":-74.28706990954116
 },
 {
 "client":"RWJ Barnabas",
@@ -8551,7 +9207,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.1188838813551,
+"lng":-74.12495479377353
 },
 {
 "client":"RWJ Barnabas",
@@ -8577,7 +9235,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.35348171860779,
+"lng":-74.47885724050687
 },
 {
 "client":"RWJ Barnabas",
@@ -8603,7 +9263,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.05384279524402,
+"lng":-75.92303692902684
 },
 {
 "client":"RWJ Barnabas",
@@ -8629,7 +9291,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.17123817493268,
+"lng":-73.94585158963946
 },
 {
 "client":"RWJ Barnabas",
@@ -8655,7 +9319,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.78797775291484,
+"lng":-73.6640724643016
 },
 {
 "client":"RWJ Barnabas",
@@ -8681,7 +9347,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.88477252944225,
+"lng":-74.40710317281241
 },
 {
 "client":"RWJ Barnabas",
@@ -8707,7 +9375,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.649940846624176,
+"lng":-75.29750279080002
 },
 {
 "client":"RWJ Barnabas",
@@ -8733,7 +9403,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.12475850186885,
+"lng":-73.82553265122236
 },
 {
 "client":"RWJ Barnabas",
@@ -8759,7 +9431,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.48573786906886,
+"lng":-75.37069403568154
 },
 {
 "client":"RWJ Barnabas",
@@ -8785,7 +9459,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.553175827819906,
+"lng":-73.09722714479462
 },
 {
 "client":"RWJ Barnabas",
@@ -8811,7 +9487,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.390266672459596,
+"lng":-75.85622276217842
 },
 {
 "client":"RWJ Barnabas",
@@ -8837,7 +9515,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.52650367680472,
+"lng":-74.64300554964208
 },
 {
 "client":"Sanford Health",
@@ -8863,7 +9543,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":617.0,
 "solarNameplate":0.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"Sanford Health",
@@ -8889,7 +9571,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":46.085451878843166,
+"lng":-93.55458983782785
 },
 {
 "client":"Sanford Health",
@@ -8915,7 +9599,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":48.64278310613188,
+"lng":-100.48053063688972
 },
 {
 "client":"Sanford Health",
@@ -8941,7 +9627,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":258.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":48.429663496893674,
+"lng":-100.89901048006804
 },
 {
 "client":"Sanford Health",
@@ -8967,7 +9655,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":47.50165483551654,
+"lng":-101.08718327560672
 },
 {
 "client":"Sanford Health",
@@ -8993,7 +9683,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":46.59308174086916,
+"lng":-100.74763916084368
 },
 {
 "client":"Sanford Health",
@@ -9019,7 +9711,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.873474700213116,
+"lng":-100.56970676128832
 },
 {
 "client":"Sanford Health",
@@ -9045,7 +9739,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.44606117956431,
+"lng":-88.81903271431935
 },
 {
 "client":"Sanford Health",
@@ -9071,7 +9767,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":359.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.35990565177617,
+"lng":-88.36721797949232
 },
 {
 "client":"Sanford Health",
@@ -9097,7 +9795,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.75004394462283,
+"lng":-90.14983287442243
 },
 {
 "client":"Sanford Health",
@@ -9123,7 +9823,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.09964947078172,
+"lng":-90.11006694822811
 },
 {
 "client":"Sanford Health",
@@ -9149,7 +9851,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.841414071606955,
+"lng":-88.84785769828179
 },
 {
 "client":"Sanford Health",
@@ -9175,7 +9879,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.13387382567356,
+"lng":-89.4485386183793
 },
 {
 "client":"Sanford Health",
@@ -9201,7 +9907,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.28658389494289,
+"lng":-88.78349027415426
 },
 {
 "client":"Sanford Health",
@@ -9227,7 +9935,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":45.81808650897198,
+"lng":-94.56157562918877
 },
 {
 "client":"Sanford Health",
@@ -9253,7 +9963,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":46.79887993666313,
+"lng":-95.39815294527142
 },
 {
 "client":"Sanford Health",
@@ -9279,7 +9991,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.887453780078104,
+"lng":-94.5341756462363
 },
 {
 "client":"Sanford Health",
@@ -9305,7 +10019,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":45.76946305903983,
+"lng":-93.9450947432352
 },
 {
 "client":"Sanford Health",
@@ -9331,7 +10047,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":46.11850009332848,
+"lng":-92.82943896476871
 },
 {
 "client":"Sanford Health",
@@ -9357,7 +10075,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.76136800335435,
+"lng":-100.15220233207283
 },
 {
 "client":"Sanford Health",
@@ -9383,7 +10103,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.7980640040494,
+"lng":-100.74818834600524
 },
 {
 "client":"Sanford Health",
@@ -9409,7 +10131,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.34135946134653,
+"lng":-100.48820463489812
 },
 {
 "client":"Sanford Health",
@@ -9435,7 +10159,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.73525747559467,
+"lng":-97.99270775178026
 },
 {
 "client":"Sanford Health",
@@ -9461,7 +10187,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.175583717939745,
+"lng":-100.90012860493324
 },
 {
 "client":"Sanford Health",
@@ -9487,7 +10215,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.15546554523557,
+"lng":-100.42517859347794
 },
 {
 "client":"Sanford Health",
@@ -9513,7 +10243,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":45.42032593890343,
+"lng":-99.41535852315488
 },
 {
 "client":"Sanford Health",
@@ -9539,7 +10271,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.27962765714962,
+"lng":-100.27993395899145
 },
 {
 "client":"Sanford Health",
@@ -9565,7 +10299,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.06023527362211,
+"lng":-100.01587975189778
 },
 {
 "client":"Sanford Health",
@@ -9591,7 +10327,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.55298704985492,
+"lng":-98.76496704831702
 },
 {
 "client":"Sanford Health",
@@ -9617,7 +10355,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":46.766544521192294,
+"lng":-100.81018138217884
 },
 {
 "client":"Sanford Health",
@@ -9643,7 +10383,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":47.60262241847112,
+"lng":-99.72095781401019
 },
 {
 "client":"Sanford Health",
@@ -9669,7 +10411,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.363950572898844,
+"lng":-83.75701260616587
 },
 {
 "client":"Sanford Health",
@@ -9695,7 +10439,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":45.64190526191776,
+"lng":-92.84433929640139
 },
 {
 "client":"Sanford Health",
@@ -9721,7 +10467,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":45.88352897694237,
+"lng":-94.73830512433773
 },
 {
 "client":"Sanford Health",
@@ -9747,7 +10495,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":46.497031904170235,
+"lng":-93.99052516259643
 },
 {
 "client":"Sanford Health",
@@ -9773,7 +10523,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":45.287385192019755,
+"lng":-94.51571243337527
 },
 {
 "client":"Sanford Health",
@@ -9799,7 +10551,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":45.56777195908802,
+"lng":-94.82419871608307
 },
 {
 "client":"Sanford Health",
@@ -9825,7 +10579,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.76499096420547,
+"lng":-91.94769162311368
 },
 {
 "client":"Sanford Health",
@@ -9851,7 +10607,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.95071928926926,
+"lng":-94.70364083477514
 },
 {
 "client":"Sharp Healthcare",
@@ -9877,7 +10635,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Southeast Arkansas College",
@@ -9903,7 +10663,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Southern Illinois Healthcare (SIH)",
@@ -9929,7 +10691,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"SSM Health Care",
@@ -9955,7 +10719,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":1000.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"SSM Health Care",
@@ -9981,7 +10747,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":500.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.6354722691723,
+"lng":-88.71508124486587
 },
 {
 "client":"SSM Health Care",
@@ -10007,7 +10775,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":500.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.72787564976774,
+"lng":-90.10736219010819
 },
 {
 "client":"SSM Health Care",
@@ -10033,7 +10803,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.0960045491478,
+"lng":-93.1133610706046
 },
 {
 "client":"SSM Health Care",
@@ -10059,7 +10831,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":38.6909171971714,
+"lng":-92.12687267767721
 },
 {
 "client":"SSM Health Care",
@@ -10085,7 +10859,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":38.56844987131341,
+"lng":-91.41825169456699
 },
 {
 "client":"SSM Health Care",
@@ -10111,7 +10887,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":38.84260211654004,
+"lng":-92.66289648968166
 },
 {
 "client":"SSM Health Care",
@@ -10137,7 +10915,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":38.575532291024864,
+"lng":-92.35126106923727
 },
 {
 "client":"SSM Health Care",
@@ -10163,7 +10943,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":38.17271782952207,
+"lng":-92.41385290887132
 },
 {
 "client":"SSM Health Care",
@@ -10189,7 +10971,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":38.56516118038091,
+"lng":-91.54635412380847
 },
 {
 "client":"SSM Health Care",
@@ -10215,7 +10999,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.19313877238243,
+"lng":-93.70879603509775
 },
 {
 "client":"SSM Health Care",
@@ -10241,7 +11027,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":38.505984982997454,
+"lng":-92.78164647014395
 },
 {
 "client":"SSM Health Care",
@@ -10267,7 +11055,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.12694378518362,
+"lng":-91.54602937630877
 },
 {
 "client":"SSM Health Care",
@@ -10293,7 +11083,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.257388672141296,
+"lng":-98.2469468707685
 },
 {
 "client":"SSM Health Care",
@@ -10319,7 +11111,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.60646429954885,
+"lng":-98.00728286165732
 },
 {
 "client":"SSM Health Care",
@@ -10345,7 +11139,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.05986458871647,
+"lng":-97.05247447483322
 },
 {
 "client":"SSM Health Care",
@@ -10371,7 +11167,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.485787802708266,
+"lng":-97.02220997377609
 },
 {
 "client":"SSM Health Care",
@@ -10397,7 +11195,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.702806413922175,
+"lng":-90.3637080786158
 },
 {
 "client":"SSM Health Care",
@@ -10423,7 +11223,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.956613539236365,
+"lng":-89.50605622275934
 },
 {
 "client":"SSM Health Care",
@@ -10449,7 +11251,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.22176710588044,
+"lng":-88.20595635949799
 },
 {
 "client":"SSM Health Care",
@@ -10475,7 +11279,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.12547664338198,
+"lng":-88.2258480348659
 },
 {
 "client":"SSM Health Care",
@@ -10501,7 +11307,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.52820836097588,
+"lng":-88.26473157692529
 },
 {
 "client":"SSM Health Care",
@@ -10527,7 +11335,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.8136947547089,
+"lng":-88.48593810752374
 },
 {
 "client":"SSM Health Care",
@@ -10553,7 +11363,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":44.91643908145202,
+"lng":-88.81548263422704
 },
 {
 "client":"Sutter Health",
@@ -10579,7 +11391,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Sutter Health",
@@ -10605,7 +11419,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.879402676204535,
+"lng":-119.91971319741282
 },
 {
 "client":"Sutter Health",
@@ -10631,7 +11447,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.111835228605536,
+"lng":-119.69467075471741
 },
 {
 "client":"Sutter Health",
@@ -10657,7 +11475,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.296702295281435,
+"lng":-120.2728703804912
 },
 {
 "client":"Sutter Health",
@@ -10683,7 +11503,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.97236907638966,
+"lng":-119.15915868740109
 },
 {
 "client":"Sutter Health",
@@ -10709,7 +11531,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.41819185891517,
+"lng":-118.50772626144897
 },
 {
 "client":"Sutter Health",
@@ -10735,7 +11559,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.31238602404955,
+"lng":-118.87055946482242
 },
 {
 "client":"Sutter Health",
@@ -10761,7 +11587,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.92841401847046,
+"lng":-118.29737681103212
 },
 {
 "client":"Sutter Health",
@@ -10787,7 +11615,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.84541574364962,
+"lng":-120.35984946617101
 },
 {
 "client":"Sutter Health",
@@ -10813,7 +11643,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.81244085844387,
+"lng":-118.78033768152132
 },
 {
 "client":"Sutter Health",
@@ -10839,7 +11671,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.58714951750876,
+"lng":-118.63622200060266
 },
 {
 "client":"Sutter Health",
@@ -10865,7 +11699,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.58198705685577,
+"lng":-121.01079324955182
 },
 {
 "client":"Sutter Health",
@@ -10891,7 +11727,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.72718096812614,
+"lng":-121.01263743371686
 },
 {
 "client":"Sutter Health",
@@ -10917,7 +11755,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.609215483816634,
+"lng":-119.3261587870942
 },
 {
 "client":"Sutter Health",
@@ -10943,7 +11783,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.745043380618746,
+"lng":-119.92757786752773
 },
 {
 "client":"Sutter Health",
@@ -10969,7 +11811,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.129828225727195,
+"lng":-118.41580102763965
 },
 {
 "client":"Sutter Health",
@@ -10995,7 +11839,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.78972360100924,
+"lng":-120.95038006249652
 },
 {
 "client":"Sutter Health",
@@ -11021,7 +11867,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.766268240446394,
+"lng":-120.57646420257313
 },
 {
 "client":"Sutter Health",
@@ -11047,7 +11895,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.277528047440654,
+"lng":-118.82287396009596
 },
 {
 "client":"Sutter Health",
@@ -11073,7 +11923,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.090648670498396,
+"lng":-119.06467621510343
 },
 {
 "client":"Sutter Health",
@@ -11099,7 +11951,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.1350233255299,
+"lng":-119.18172230607651
 },
 {
 "client":"Sutter Health",
@@ -11125,7 +11979,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.49836022344953,
+"lng":-120.49981168998384
 },
 {
 "client":"Sutter Health",
@@ -11151,7 +12007,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.31439680847778,
+"lng":-118.81702487189752
 },
 {
 "client":"Sutter Health",
@@ -11177,7 +12035,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.25305171338369,
+"lng":-119.28919148005278
 },
 {
 "client":"Sutter Health",
@@ -11203,7 +12063,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.131792246194074,
+"lng":-120.70750125667729
 },
 {
 "client":"Sutter Health",
@@ -11229,7 +12091,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.826612753960944,
+"lng":-121.15065769735774
 },
 {
 "client":"Sutter Health",
@@ -11255,7 +12119,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":37.241210376770574,
+"lng":-119.24650052855245
 },
 {
 "client":"Sutter Health",
@@ -11281,7 +12147,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.399929706995586,
+"lng":-121.13854560514744
 },
 {
 "client":"Temple University Health System",
@@ -11307,7 +12175,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Temple University Health System",
@@ -11333,7 +12203,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.70920021267514,
+"lng":-77.05093190786492
 },
 {
 "client":"Temple University Health System",
@@ -11359,7 +12231,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.96240962570652,
+"lng":-76.22081674486459
 },
 {
 "client":"Temple University Health System",
@@ -11385,7 +12259,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.06937035163059,
+"lng":-77.70082443083653
 },
 {
 "client":"Temple University Health System",
@@ -11411,7 +12287,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.40396828237454,
+"lng":-76.11294618668528
 },
 {
 "client":"Temple University Health System",
@@ -11437,7 +12315,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.576450873691584,
+"lng":-75.96174788240415
 },
 {
 "client":"Tufts Medicine",
@@ -11463,7 +12343,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":769.0,
 "solarNameplate":2100.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"Tufts Medicine",
@@ -11489,7 +12371,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":487.0,
 "solarNameplate":200.0,
-"include":"Yes"
+"include":"Yes",
+"lat":43.19293781406787,
+"lng":-70.48561837324235
 },
 {
 "client":"Tufts Medicine",
@@ -11515,7 +12399,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":900.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.22049411012664,
+"lng":-70.16182358047952
 },
 {
 "client":"Tufts Medicine",
@@ -11541,7 +12427,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":153.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.190354703203894,
+"lng":-70.80452372466412
 },
 {
 "client":"Tufts Medicine",
@@ -11567,7 +12455,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":129.0,
 "solarNameplate":500.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.71180454322978,
+"lng":-72.87539372261173
 },
 {
 "client":"Tufts Medicine",
@@ -11593,7 +12483,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":500.0,
-"include":"Yes"
+"include":"Yes",
+"lat":42.59846019303242,
+"lng":-71.57420563138074
 },
 {
 "client":"Tulane",
@@ -11619,7 +12511,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Tulane",
@@ -11645,7 +12539,9 @@
 "existingNameplate":15950.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"Tulane",
@@ -11671,7 +12567,9 @@
 "existingNameplate":7500.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.562076766104596,
+"lng":-92.5327765382366
 },
 {
 "client":"Tulane",
@@ -11697,7 +12595,9 @@
 "existingNameplate":8450.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":30.523015685830117,
+"lng":-92.12268008380632
 },
 {
 "client":"Tulane",
@@ -11723,7 +12623,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":31.810304858894543,
+"lng":-92.29015899823519
 },
 {
 "client":"Unity Health (AR)",
@@ -11749,7 +12651,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":3000.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Unity Health (AR)",
@@ -11775,7 +12679,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":33.86744619231093,
+"lng":-92.74711144447917
 },
 {
 "client":"Unity Health (AR)",
@@ -11801,7 +12707,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.98677535738056,
+"lng":-91.90303495334311
 },
 {
 "client":"Unity Health (AR)",
@@ -11827,7 +12735,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.273960286676235,
+"lng":-91.32092053884243
 },
 {
 "client":"Unity Health (AR)",
@@ -11853,7 +12763,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.206683842649895,
+"lng":-91.98068271030947
 },
 {
 "client":"Unity Health (AR)",
@@ -11879,7 +12791,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.083695228259955,
+"lng":-91.14707699287278
 },
 {
 "client":"Unity Health (AR)",
@@ -11905,7 +12819,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.489808022045075,
+"lng":-93.86747035312975
 },
 {
 "client":"University of Arkansas Med Sciences",
@@ -11931,7 +12847,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.59195783102282,
+"lng":-91.75354727426296
 },
 {
 "client":"University of Chicago",
@@ -11957,7 +12875,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"WellSpan Health",
@@ -11983,7 +12903,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"No"
+"include":"No",
+"lat":null,
+"lng":null
 },
 {
 "client":"WellSpan Health",
@@ -12009,7 +12931,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.892357230163235,
+"lng":-76.63622346459941
 },
 {
 "client":"WellSpan Health",
@@ -12035,7 +12959,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.58279137374556,
+"lng":-77.80055092694194
 },
 {
 "client":"WellSpan Health",
@@ -12061,7 +12987,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.75180931755057,
+"lng":-77.58209665694775
 },
 {
 "client":"WellSpan Health",
@@ -12087,7 +13015,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.738442356782755,
+"lng":-78.06345940454587
 },
 {
 "client":"WellSpan Health",
@@ -12113,7 +13043,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.32668505292173,
+"lng":-76.11134307136086
 },
 {
 "client":"WellSpan Health",
@@ -12139,7 +13071,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.134199412516935,
+"lng":-76.35422350196137
 },
 {
 "client":"WellSpan Health",
@@ -12165,7 +13099,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.49801496317117,
+"lng":-77.34137880547412
 },
 {
 "client":"WellSpan Health",
@@ -12191,7 +13127,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.51650729998447,
+"lng":-75.75592971398483
 },
 {
 "client":"WellSpan Health",
@@ -12217,7 +13155,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.42331433852526,
+"lng":-77.14680572626561
 },
 {
 "client":"West Tennessee Healthcare",
@@ -12243,7 +13183,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"West Tennessee Healthcare",
@@ -12269,7 +13211,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.244130721641,
+"lng":-87.39330094414265
 },
 {
 "client":"West Tennessee Healthcare",
@@ -12295,7 +13239,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.66950115258787,
+"lng":-87.54139818369188
 },
 {
 "client":"West Tennessee Healthcare",
@@ -12321,7 +13267,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.96863895119999,
+"lng":-86.3924844096014
 },
 {
 "client":"West Tennessee Healthcare",
@@ -12347,7 +13295,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.670603624176195,
+"lng":-86.4949489423963
 },
 {
 "client":"West Tennessee Healthcare",
@@ -12373,7 +13323,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.374794556604385,
+"lng":-86.23983420646904
 },
 {
 "client":"West Tennessee Healthcare",
@@ -12399,7 +13351,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":36.58947206674628,
+"lng":-85.26518798536067
 },
 {
 "client":"West Tennessee Healthcare",
@@ -12425,7 +13379,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":34.96894175738308,
+"lng":-85.62880243417557
 },
 {
 "client":"West Tennessee Healthcare",
@@ -12451,7 +13407,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":35.309023462921274,
+"lng":-86.30198738194933
 },
 {
 "client":"Xavier University",
@@ -12477,7 +13435,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":371.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":39.202449999522,
+"lng":-81.58759940698995
 },
 {
 "client":"Yale New Haven Health",
@@ -12503,7 +13463,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Yale New Haven Health",
@@ -12529,7 +13491,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.176778396010754,
+"lng":-72.39835921318141
 },
 {
 "client":"Yale New Haven Health",
@@ -12555,7 +13519,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.629632672213575,
+"lng":-73.67169586846022
 },
 {
 "client":"Yale New Haven Health",
@@ -12581,7 +13547,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.6888873663082,
+"lng":-72.02606443901179
 },
 {
 "client":"Yale New Haven Health",
@@ -12607,7 +13575,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.76933573772763,
+"lng":-73.57394057077104
 },
 {
 "client":"Yale New Haven Health",
@@ -12633,7 +13603,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.3217298552305,
+"lng":-72.69139487231975
 },
 {
 "client":"Yale New Haven Health",
@@ -12659,7 +13631,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":42.017958916192825,
+"lng":-71.47280626747732
 },
 {
 "client":"Yale New Haven Health",
@@ -12685,7 +13659,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":null,
+"lng":null
 },
 {
 "client":"Yale New Haven Health",
@@ -12711,7 +13687,9 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":41.153400093668566,
+"lng":-71.97340576128711
 },
 {
 "client":"Yale New Haven Health",
@@ -12737,6 +13715,8 @@
 "existingNameplate":0.0,
 "facilitiesNameplate":0.0,
 "solarNameplate":0.0,
-"include":"Yes"
+"include":"Yes",
+"lat":40.75300219867294,
+"lng":-73.99962523023791
 }
 ]

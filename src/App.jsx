@@ -5,11 +5,11 @@ import projects from './projects.json'
 import './App.css'
 
 const TECH_CONFIG = [
-  { key: 'hasBESS', label: 'BESS', color: '#378ADD' },
-  { key: 'hasBackupGen', label: 'Backup Gen', color: '#BA7517' },
-  { key: 'hasExistingGen', label: 'Existing Gen', color: '#639922' },
-  { key: 'hasFacilitiesDM', label: 'Facilities DM', color: '#534AB7' },
-  { key: 'hasSolar', label: 'Solar', color: '#D85A30' },
+  { key: 'hasBESS', label: 'BESS', color: '#557F7F' },
+  { key: 'hasBackupGen', label: 'Backup Gen', color: '#092B24' },
+  { key: 'hasExistingGen', label: 'Existing Gen', color: '#7A9D9D' },
+  { key: 'hasFacilitiesDM', label: 'Facilities DM', color: '#3d5e5e' },
+  { key: 'hasSolar', label: 'Solar', color: '#D6EF4B' },
 ]
 
 const PER_PAGE = 15
@@ -23,9 +23,9 @@ export default function App() {
   const [iso, setIso] = useState('')
   const [phase, setPhase] = useState('')
   const [type, setType] = useState('')
-  const [state, setState] = useState('')
+  const [stateFilter, setStateFilter] = useState('')
   const [activeTechs, setActiveTechs] = useState(new Set())
-  const [tab, setTab] = useState('table')
+  const [tab, setTab] = useState('map')
   const [page, setPage] = useState(0)
 
   const isoOptions = useMemo(() => unique(projects, 'iso'), [])
@@ -40,11 +40,11 @@ export default function App() {
       if (iso && r.iso !== iso) return false
       if (phase && r.phase !== phase) return false
       if (type && r.clientType !== type) return false
-      if (state && r.state !== state) return false
+      if (stateFilter && r.state !== stateFilter) return false
       for (const t of activeTechs) if (!r[t]) return false
       return true
     })
-  }, [search, iso, phase, type, state, activeTechs])
+  }, [search, iso, phase, type, stateFilter, activeTechs])
 
   useEffect(() => { setPage(0) }, [filtered])
 
@@ -60,11 +60,21 @@ export default function App() {
     setActiveTechs(next)
   }
 
+  const jumpToTable = (state) => {
+    setStateFilter(state)
+    setTab('table')
+  }
+
   return (
     <div className="app">
       <header>
-        <h1>CPower Project Dashboard</h1>
-        <p className="subtitle">Q1 update · 490 sites across 51 clients</p>
+        <div className="brand-bar">
+          <div className="brand-mark" />
+          <div>
+            <h1>CPower Project Dashboard</h1>
+            <p className="subtitle">Q1 update · 490 sites across 51 clients</p>
+          </div>
+        </div>
       </header>
 
       <div className="top-bar">
@@ -86,7 +96,7 @@ export default function App() {
           <option value="">All types</option>
           {typeOptions.map(v => <option key={v} value={v}>{v}</option>)}
         </select>
-        <select value={state} onChange={e => setState(e.target.value)}>
+        <select value={stateFilter} onChange={e => setStateFilter(e.target.value)}>
           <option value="">All states</option>
           {stateOptions.map(v => <option key={v} value={v}>{v}</option>)}
         </select>
@@ -118,13 +128,18 @@ export default function App() {
       </div>
 
       <div className="tabs">
-        {['table', 'clients', 'charts', 'map'].map(t => (
+        {[
+          { id: 'map', label: 'Map' },
+          { id: 'table', label: 'Sites' },
+          { id: 'clients', label: 'Clients' },
+          { id: 'charts', label: 'Analytics' },
+        ].map(t => (
           <button
-            key={t}
-            className={`tab ${tab === t ? 'active' : ''}`}
-            onClick={() => { setTab(t); setPage(0) }}
+            key={t.id}
+            className={`tab ${tab === t.id ? 'active' : ''}`}
+            onClick={() => { setTab(t.id); setPage(0) }}
           >
-            {t === 'table' ? 'Sites' : t.charAt(0).toUpperCase() + t.slice(1)}
+            {t.label}
           </button>
         ))}
       </div>
@@ -133,7 +148,7 @@ export default function App() {
         {tab === 'table' && <SitesTable rows={filtered} page={page} setPage={setPage} />}
         {tab === 'clients' && <ClientsTable rows={filtered} page={page} setPage={setPage} />}
         {tab === 'charts' && <ChartsView rows={filtered} />}
-        {tab === 'map' && <MapView rows={filtered} />}
+        {tab === 'map' && <MapView rows={filtered} jumpToTable={jumpToTable} />}
       </div>
 
       <footer>
@@ -281,10 +296,10 @@ function ChartsView({ rows }) {
 
   return (
     <div className="charts-grid">
-      <BarChart title="Sites by ISO" data={isoArr} color="#378ADD" />
-      <BarChart title="Sites by state (top 10)" data={stateArr} color="#1D9E75" />
+      <BarChart title="Sites by ISO" data={isoArr} color="#557F7F" />
+      <BarChart title="Sites by state (top 10)" data={stateArr} color="#3d5e5e" />
       <BarChart title="Technology deployment" data={techCounts.map(t => [t.label, t.count])} colors={techCounts.map(t => t.color)} />
-      <BarChart title="Pipeline phases" data={phaseArr} color="#7F77DD" />
+      <BarChart title="Pipeline phases" data={phaseArr} color="#092B24" />
     </div>
   )
 }
@@ -310,49 +325,169 @@ function BarChart({ title, data, color, colors }) {
   )
 }
 
-function MapView({ rows }) {
+const STATE_FIPS = { AL: '01', AK: '02', AZ: '04', AR: '05', CA: '06', CO: '08', CT: '09', DE: '10', FL: '12', GA: '13', HI: '15', ID: '16', IL: '17', IN: '18', IA: '19', KS: '20', KY: '21', LA: '22', ME: '23', MD: '24', MA: '25', MI: '26', MN: '27', MS: '28', MO: '29', MT: '30', NE: '31', NV: '32', NH: '33', NJ: '34', NM: '35', NY: '36', NC: '37', ND: '38', OH: '39', OK: '40', OR: '41', PA: '42', RI: '44', SC: '45', SD: '46', TN: '47', TX: '48', UT: '49', VT: '50', VA: '51', WA: '53', WV: '54', WI: '55', WY: '56' }
+const STATE_NAMES = { AL: 'Alabama', AK: 'Alaska', AZ: 'Arizona', AR: 'Arkansas', CA: 'California', CO: 'Colorado', CT: 'Connecticut', DE: 'Delaware', FL: 'Florida', GA: 'Georgia', HI: 'Hawaii', ID: 'Idaho', IL: 'Illinois', IN: 'Indiana', IA: 'Iowa', KS: 'Kansas', KY: 'Kentucky', LA: 'Louisiana', ME: 'Maine', MD: 'Maryland', MA: 'Massachusetts', MI: 'Michigan', MN: 'Minnesota', MS: 'Mississippi', MO: 'Missouri', MT: 'Montana', NE: 'Nebraska', NV: 'Nevada', NH: 'New Hampshire', NJ: 'New Jersey', NM: 'New Mexico', NY: 'New York', NC: 'North Carolina', ND: 'North Dakota', OH: 'Ohio', OK: 'Oklahoma', OR: 'Oregon', PA: 'Pennsylvania', RI: 'Rhode Island', SC: 'South Carolina', SD: 'South Dakota', TN: 'Tennessee', TX: 'Texas', UT: 'Utah', VT: 'Vermont', VA: 'Virginia', WA: 'Washington', WV: 'West Virginia', WI: 'Wisconsin', WY: 'Wyoming' }
+
+function MapView({ rows, jumpToTable }) {
   const ref = useRef(null)
+  const [selectedState, setSelectedState] = useState(null)
+  const [showDots, setShowDots] = useState(true)
+
+  const stateCount = useMemo(() => {
+    const c = {}
+    rows.forEach(r => { if (r.state) c[r.state] = (c[r.state] || 0) + 1 })
+    return c
+  }, [rows])
+
+  const sitesInState = useMemo(() => {
+    if (!selectedState) return []
+    return rows.filter(r => r.state === selectedState && r.site !== 'Enterprise')
+  }, [rows, selectedState])
 
   useEffect(() => {
-    const stateCount = {}
-    rows.forEach(r => { if (r.state) stateCount[r.state] = (stateCount[r.state] || 0) + 1 })
     const isDark = matchMedia('(prefers-color-scheme: dark)').matches
     const maxV = Math.max(...Object.values(stateCount), 1)
-    const color = d3.scaleSequential([0, maxV], d3.interpolateBlues)
 
-    const stateFips = { AL: '01', AK: '02', AZ: '04', AR: '05', CA: '06', CO: '08', CT: '09', DE: '10', FL: '12', GA: '13', HI: '15', ID: '16', IL: '17', IN: '18', IA: '19', KS: '20', KY: '21', LA: '22', ME: '23', MD: '24', MA: '25', MI: '26', MN: '27', MS: '28', MO: '29', MT: '30', NE: '31', NV: '32', NH: '33', NJ: '34', NM: '35', NY: '36', NC: '37', ND: '38', OH: '39', OK: '40', OR: '41', PA: '42', RI: '44', SC: '45', SD: '46', TN: '47', TX: '48', UT: '49', VT: '50', VA: '51', WA: '53', WV: '54', WI: '55', WY: '56' }
+    // ENFRA brand color scale: Iced Steel → Blue Steel → Ocean Steel
+    const color = d3.scaleLinear()
+      .domain([0, maxV / 2, maxV])
+      .range(isDark
+        ? ['#1a322e', '#557F7F', '#D3E7E0']
+        : ['#D3E7E0', '#557F7F', '#092B24'])
+
     const stateByFips = {}
-    Object.entries(stateFips).forEach(([s, f]) => { stateByFips[f] = s })
+    Object.entries(STATE_FIPS).forEach(([s, f]) => { stateByFips[f] = s })
 
     d3.json('https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json').then(us => {
       if (!ref.current) return
       const div = ref.current
       const w = div.offsetWidth || 700
-      const h = 400
+      const h = 460
       d3.select(div).select('svg').remove()
-      const svg = d3.select(div).append('svg').attr('viewBox', `0 0 ${w} ${h}`).style('width', '100%').style('height', '100%')
-      const proj = d3.geoAlbersUsa().scale(w * 1.2).translate([w / 2, h / 2])
+      const svg = d3.select(div).append('svg')
+        .attr('viewBox', `0 0 ${w} ${h}`)
+        .style('width', '100%')
+        .style('height', '100%')
+
+      const proj = d3.geoAlbersUsa().scale(w * 1.25).translate([w / 2, h / 2])
       const path = d3.geoPath(proj)
       const features = topojson.feature(us, us.objects.states).features
 
-      svg.selectAll('path').data(features).join('path')
+      // States layer
+      svg.append('g').selectAll('path').data(features).join('path')
         .attr('d', path)
-        .attr('stroke', isDark ? 'rgba(255,255,255,.2)' : 'rgba(0,0,0,.15)')
-        .attr('stroke-width', 0.5)
+        .attr('class', 'state-path')
+        .attr('stroke', isDark ? 'rgba(255,255,255,.25)' : 'rgba(9,43,36,.2)')
+        .attr('stroke-width', 0.6)
         .attr('fill', d => {
           const fips = String(d.id).padStart(2, '0')
           const s = stateByFips[fips]
           const v = stateCount[s] || 0
-          return v > 0 ? color(v) : (isDark ? '#2C2C2A' : '#E8E8E5')
+          return v > 0 ? color(v) : (isDark ? '#142624' : '#f0f0ec')
+        })
+        .style('cursor', d => {
+          const fips = String(d.id).padStart(2, '0')
+          const s = stateByFips[fips]
+          return (stateCount[s] || 0) > 0 ? 'pointer' : 'default'
+        })
+        .on('mouseenter', function (event, d) {
+          d3.select(this).attr('stroke-width', 2).attr('stroke', '#D6EF4B')
+        })
+        .on('mouseleave', function () {
+          d3.select(this).attr('stroke-width', 0.6).attr('stroke', isDark ? 'rgba(255,255,255,.25)' : 'rgba(9,43,36,.2)')
+        })
+        .on('click', (event, d) => {
+          const fips = String(d.id).padStart(2, '0')
+          const s = stateByFips[fips]
+          if (stateCount[s] > 0) setSelectedState(s)
         })
         .append('title').text(d => {
           const fips = String(d.id).padStart(2, '0')
           const s = stateByFips[fips]
           const v = stateCount[s] || 0
-          return `${s || '?'}: ${v} site${v !== 1 ? 's' : ''}`
+          return `${STATE_NAMES[s] || s}: ${v} site${v !== 1 ? 's' : ''}${v > 0 ? ' (click for details)' : ''}`
         })
-    })
-  }, [rows])
 
-  return <div className="map-container" ref={ref} />
+      // Site dots
+      if (showDots) {
+        const dotsG = svg.append('g')
+        rows.forEach(r => {
+          if (r.lat && r.lng) {
+            const coords = proj([r.lng, r.lat])
+            if (coords) {
+              dotsG.append('circle')
+                .attr('cx', coords[0])
+                .attr('cy', coords[1])
+                .attr('r', 3)
+                .attr('fill', '#D6EF4B')
+                .attr('stroke', '#092B24')
+                .attr('stroke-width', 0.8)
+                .attr('opacity', 0.85)
+                .style('pointer-events', 'none')
+            }
+          }
+        })
+      }
+
+      // Legend
+      const legW = 140
+      const legH = 8
+      const legG = svg.append('g').attr('transform', `translate(${w - legW - 16}, ${h - 36})`)
+      const gradId = 'mapGrad'
+      const defs = svg.append('defs')
+      const grad = defs.append('linearGradient').attr('id', gradId).attr('x1', '0%').attr('x2', '100%')
+      grad.append('stop').attr('offset', '0%').attr('stop-color', isDark ? '#1a322e' : '#D3E7E0')
+      grad.append('stop').attr('offset', '50%').attr('stop-color', '#557F7F')
+      grad.append('stop').attr('offset', '100%').attr('stop-color', isDark ? '#D3E7E0' : '#092B24')
+      legG.append('rect').attr('width', legW).attr('height', legH).attr('rx', 2).attr('fill', `url(#${gradId})`)
+      legG.append('text').attr('y', 22).attr('font-size', 10).attr('fill', isDark ? '#a8b5b0' : '#5f5e5a').text('1 site')
+      legG.append('text').attr('y', 22).attr('x', legW).attr('text-anchor', 'end').attr('font-size', 10).attr('fill', isDark ? '#a8b5b0' : '#5f5e5a').text(`${maxV} sites`)
+    })
+  }, [rows, stateCount, showDots])
+
+  return (
+    <div className="map-layout">
+      <div className="map-controls">
+        <label className="toggle">
+          <input type="checkbox" checked={showDots} onChange={e => setShowDots(e.target.checked)} />
+          <span>Show site markers</span>
+        </label>
+        <span className="map-hint">Click any state to see its sites</span>
+      </div>
+      <div className={`map-with-panel ${selectedState ? 'has-panel' : ''}`}>
+        <div className="map-container" ref={ref} />
+        {selectedState && (
+          <div className="state-panel">
+            <div className="state-panel-header">
+              <div>
+                <div className="state-panel-state">{STATE_NAMES[selectedState] || selectedState}</div>
+                <div className="state-panel-count">{sitesInState.length} site{sitesInState.length !== 1 ? 's' : ''}</div>
+              </div>
+              <button className="close-btn" onClick={() => setSelectedState(null)} aria-label="Close">×</button>
+            </div>
+            <div className="state-panel-body">
+              {sitesInState.length === 0 && <div className="empty">No matching sites</div>}
+              {sitesInState.map((s, i) => (
+                <div className="site-card" key={i}>
+                  <div className="site-card-client">{s.client}</div>
+                  <div className="site-card-site">{s.site}</div>
+                  <div className="site-card-meta">
+                    {s.peakDemand ? `${s.peakDemand.toLocaleString()} kW` : '—'}
+                    {s.iso && ` · ${s.iso}`}
+                    {s.utility && ` · ${s.utility}`}
+                  </div>
+                  <div className="site-card-tech"><TechDots row={s} /></div>
+                </div>
+              ))}
+            </div>
+            <div className="state-panel-footer">
+              <button className="primary-btn" onClick={() => jumpToTable(selectedState)}>
+                View {STATE_NAMES[selectedState]} in table →
+              </button>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  )
 }
