@@ -591,3 +591,150 @@ footer {
   color: var(--text-tertiary);
   text-align: center;
 }
+
+/* Sub-toolbar (used in EO Measures) */
+.sub-toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.sub-search {
+  flex: 1;
+  min-width: 200px;
+  height: 36px;
+  padding: 0 12px;
+  font-size: 13px;
+  border: 1px solid var(--border-secondary);
+  border-radius: var(--radius-md);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.sub-search:focus {
+  outline: none;
+  border-color: var(--brand-blue-steel);
+  box-shadow: 0 0 0 3px rgba(85, 127, 127, 0.15);
+}
+
+.sub-toolbar select {
+  height: 36px;
+  padding: 0 10px;
+  font-size: 13px;
+  border: 1px solid var(--border-secondary);
+  border-radius: var(--radius-md);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  cursor: pointer;
+}
+
+/* Project Outlook */
+.outlook-header {
+  margin-bottom: 16px;
+}
+
+.outlook-header h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--brand-ocean-steel);
+  margin-bottom: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .outlook-header h3 { color: var(--brand-iced-steel); }
+}
+
+.outlook-header p {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.outlook-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 14px;
+}
+
+.outlook-card {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-tertiary);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  border-left: 3px solid var(--brand-blue-steel);
+}
+
+.outlook-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  gap: 12px;
+}
+
+.outlook-project {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--brand-ocean-steel);
+  margin-bottom: 2px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .outlook-project { color: var(--brand-iced-steel); }
+}
+
+.outlook-utility {
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+.outlook-closing {
+  background: var(--brand-safety-yellow);
+  color: var(--brand-ocean-steel);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.outlook-techs {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.outlook-badge {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+}
+
+.outlook-badge.included {
+  background: var(--brand-iced-steel);
+  color: var(--brand-ocean-steel);
+}
+
+.outlook-badge.excluded {
+  background: var(--bg-secondary);
+  color: var(--text-tertiary);
+}
+
+@media (prefers-color-scheme: dark) {
+  .outlook-badge.included {
+    background: #1a322e;
+    color: var(--brand-iced-steel);
+  }
+}
+
+.outlook-badge-label {
+  font-weight: 700;
+}
+
+.outlook-badge-date {
+  font-size: 10px;
+  opacity: 0.85;
+}

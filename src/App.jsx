@@ -2,6 +2,8 @@ import { useState, useMemo, useEffect, useRef } from 'react'
 import * as d3 from 'd3'
 import * as topojson from 'topojson-client'
 import projects from './projects.json'
+import eoMeasures from './eo_measures.json'
+import projectOutlook from './project_outlook.json'
 import './App.css'
 
 const TECH_CONFIG = [
@@ -16,6 +18,13 @@ const PER_PAGE = 15
 
 function unique(arr, key) {
   return [...new Set(arr.map(r => r[key]).filter(Boolean))].sort()
+}
+
+// Format kW intelligently. Under 1000 shows kW, 1000+ shows MW with one decimal.
+function formatPower(kw) {
+  if (!kw) return '—'
+  if (kw < 1000) return `${Math.round(kw).toLocaleString()} kW`
+  return `${(kw / 1000).toFixed(1)} MW`
 }
 
 export default function App() {
@@ -65,6 +74,9 @@ export default function App() {
     setTab('table')
   }
 
+  // Show filters bar only on tabs that use it
+  const filtersApply = ['map', 'table', 'clients', 'charts'].includes(tab)
+
   return (
     <div className="app">
       <header>
@@ -77,55 +89,59 @@ export default function App() {
         </div>
       </header>
 
-      <div className="top-bar">
-        <input
-          type="text"
-          placeholder="Search client, site, state, ISO..."
-          value={search}
-          onChange={e => setSearch(e.target.value)}
-        />
-        <select value={iso} onChange={e => setIso(e.target.value)}>
-          <option value="">All ISOs</option>
-          {isoOptions.map(v => <option key={v} value={v}>{v}</option>)}
-        </select>
-        <select value={phase} onChange={e => setPhase(e.target.value)}>
-          <option value="">All phases</option>
-          {phaseOptions.map(v => <option key={v} value={v}>{v}</option>)}
-        </select>
-        <select value={type} onChange={e => setType(e.target.value)}>
-          <option value="">All types</option>
-          {typeOptions.map(v => <option key={v} value={v}>{v}</option>)}
-        </select>
-        <select value={stateFilter} onChange={e => setStateFilter(e.target.value)}>
-          <option value="">All states</option>
-          {stateOptions.map(v => <option key={v} value={v}>{v}</option>)}
-        </select>
-      </div>
+      {filtersApply && (
+        <>
+          <div className="top-bar">
+            <input
+              type="text"
+              placeholder="Search client, site, state, ISO..."
+              value={search}
+              onChange={e => setSearch(e.target.value)}
+            />
+            <select value={iso} onChange={e => setIso(e.target.value)}>
+              <option value="">All ISOs</option>
+              {isoOptions.map(v => <option key={v} value={v}>{v}</option>)}
+            </select>
+            <select value={phase} onChange={e => setPhase(e.target.value)}>
+              <option value="">All phases</option>
+              {phaseOptions.map(v => <option key={v} value={v}>{v}</option>)}
+            </select>
+            <select value={type} onChange={e => setType(e.target.value)}>
+              <option value="">All types</option>
+              {typeOptions.map(v => <option key={v} value={v}>{v}</option>)}
+            </select>
+            <select value={stateFilter} onChange={e => setStateFilter(e.target.value)}>
+              <option value="">All states</option>
+              {stateOptions.map(v => <option key={v} value={v}>{v}</option>)}
+            </select>
+          </div>
 
-      <div className="tech-pills">
-        {TECH_CONFIG.map(t => {
-          const count = projects.filter(r => r[t.key]).length
-          const active = activeTechs.has(t.key)
-          return (
-            <button
-              key={t.key}
-              className={`pill ${active ? 'active' : ''}`}
-              onClick={() => toggleTech(t.key)}
-            >
-              <span className="dot" style={{ background: t.color }} />
-              {t.label}
-              <span className="count-badge">{count}</span>
-            </button>
-          )
-        })}
-      </div>
+          <div className="tech-pills">
+            {TECH_CONFIG.map(t => {
+              const count = projects.filter(r => r[t.key]).length
+              const active = activeTechs.has(t.key)
+              return (
+                <button
+                  key={t.key}
+                  className={`pill ${active ? 'active' : ''}`}
+                  onClick={() => toggleTech(t.key)}
+                >
+                  <span className="dot" style={{ background: t.color }} />
+                  {t.label}
+                  <span className="count-badge">{count}</span>
+                </button>
+              )
+            })}
+          </div>
 
-      <div className="metrics">
-        <Metric label="Sites shown" value={filtered.length} sub={`of ${projects.length} total`} />
-        <Metric label="Clients" value={clientCount} sub="unique" />
-        <Metric label="Peak demand" value={`${(totalDemand / 1000).toFixed(1)} GW`} sub="nameplate" />
-        <Metric label="BESS + Solar" value={`${((totalBESS + totalSolar) / 1000).toFixed(0)} MW`} sub="combined" />
-      </div>
+          <div className="metrics">
+            <Metric label="Sites shown" value={filtered.length} sub={`of ${projects.length} total`} />
+            <Metric label="Clients" value={clientCount} sub="unique" />
+            <Metric label="Peak demand" value={formatPower(totalDemand)} sub="aggregate nameplate" />
+            <Metric label="BESS + Solar" value={formatPower(totalBESS + totalSolar)} sub="combined" />
+          </div>
+        </>
+      )}
 
       <div className="tabs">
         {[
@@ -133,6 +149,8 @@ export default function App() {
           { id: 'table', label: 'Sites' },
           { id: 'clients', label: 'Clients' },
           { id: 'charts', label: 'Analytics' },
+          { id: 'eo', label: 'EO Measures' },
+          { id: 'outlook', label: 'Project Outlook' },
         ].map(t => (
           <button
             key={t.id}
@@ -149,6 +167,8 @@ export default function App() {
         {tab === 'clients' && <ClientsTable rows={filtered} page={page} setPage={setPage} />}
         {tab === 'charts' && <ChartsView rows={filtered} />}
         {tab === 'map' && <MapView rows={filtered} jumpToTable={jumpToTable} />}
+        {tab === 'eo' && <EOMeasuresView />}
+        {tab === 'outlook' && <ProjectOutlookView />}
       </div>
 
       <footer>
@@ -209,7 +229,7 @@ function SitesTable({ rows, page, setPage }) {
           <thead>
             <tr>
               <th>Client</th><th>Site</th><th>State</th><th>ISO</th>
-              <th>Peak kW</th><th>Phase</th><th>Tech</th>
+              <th>Peak Demand</th><th>Phase</th><th>Tech</th>
             </tr>
           </thead>
           <tbody>
@@ -219,7 +239,7 @@ function SitesTable({ rows, page, setPage }) {
                 <td title={r.site}>{r.site}</td>
                 <td>{r.state || '—'}</td>
                 <td>{r.iso || '—'}</td>
-                <td>{r.peakDemand ? r.peakDemand.toLocaleString() : '—'}</td>
+                <td>{formatPower(r.peakDemand)}</td>
                 <td>{r.phase ? <span className={`phase-badge ${phaseClass(r.phase)}`}>{r.phase}</span> : '—'}</td>
                 <td><TechDots row={r} /></td>
               </tr>
@@ -257,7 +277,7 @@ function ClientsTable({ rows, page, setPage }) {
       <div className="table-wrap">
         <table>
           <thead>
-            <tr><th>Client</th><th>Type</th><th>Sites</th><th>States</th><th>ISO</th><th>Peak demand</th><th>Tech</th></tr>
+            <tr><th>Client</th><th>Type</th><th>Sites</th><th>States</th><th>ISO</th><th>Peak Demand</th><th>Tech</th></tr>
           </thead>
           <tbody>
             {slice.map((c, i) => (
@@ -267,7 +287,7 @@ function ClientsTable({ rows, page, setPage }) {
                 <td>{c.sites}</td>
                 <td>{[...c.states].join(', ') || '—'}</td>
                 <td>{[...c.isos].join(', ') || '—'}</td>
-                <td>{c.totalDemand ? `${(c.totalDemand / 1000).toFixed(1)} GW` : '—'}</td>
+                <td>{formatPower(c.totalDemand)}</td>
                 <td className="small">{[...c.techs].join(', ') || '—'}</td>
               </tr>
             ))}
@@ -325,6 +345,160 @@ function BarChart({ title, data, color, colors }) {
   )
 }
 
+// EO Measures view — operational dates, kW values per measure type, market participation
+function EOMeasuresView() {
+  const [page, setPage] = useState(0)
+  const [search, setSearch] = useState('')
+  const [techFilter, setTechFilter] = useState('all')
+
+  const filtered = useMemo(() => {
+    const q = search.toLowerCase()
+    return eoMeasures.filter(r => {
+      if (q && !`${r.project} ${r.site} ${r.iso} ${r.utility}`.toLowerCase().includes(q)) return false
+      if (techFilter === 'newBackup' && !r.newBackupDR) return false
+      if (techFilter === 'bess' && !r.bessDR) return false
+      if (techFilter === 'existingBackup' && !r.existingBackupDR) return false
+      if (techFilter === 'hvac' && !r.hvacDR) return false
+      if (techFilter === 'fuelSwitch' && !r.fuelSwitchDR) return false
+      if (techFilter === 'solar' && !r.solarIncluded) return false
+      return true
+    })
+  }, [search, techFilter])
+
+  useEffect(() => { setPage(0) }, [search, techFilter])
+
+  const start = page * PER_PAGE
+  const slice = filtered.slice(start, start + PER_PAGE)
+
+  // Aggregate kW totals
+  const totals = filtered.reduce((acc, r) => {
+    acc.newBackup += r.newBackupKW
+    acc.bess += r.bessKW
+    acc.existingBackup += r.existingBackupKW
+    acc.hvac += r.hvacKW
+    acc.fuelSwitch += r.fuelSwitchKW
+    acc.solar += r.solarKW
+    return acc
+  }, { newBackup: 0, bess: 0, existingBackup: 0, hvac: 0, fuelSwitch: 0, solar: 0 })
+
+  return (
+    <>
+      <div className="sub-toolbar">
+        <input
+          type="text"
+          className="sub-search"
+          placeholder="Search project, site, utility..."
+          value={search}
+          onChange={e => setSearch(e.target.value)}
+        />
+        <select value={techFilter} onChange={e => setTechFilter(e.target.value)}>
+          <option value="all">All measures</option>
+          <option value="newBackup">New Backup Gen</option>
+          <option value="bess">BESS</option>
+          <option value="existingBackup">Existing Backup Gen</option>
+          <option value="hvac">HVAC</option>
+          <option value="fuelSwitch">Fuel Switching</option>
+          <option value="solar">Solar</option>
+        </select>
+      </div>
+
+      <div className="metrics" style={{ marginTop: 8, gridTemplateColumns: 'repeat(6, 1fr)' }}>
+        <Metric label="New Backup" value={formatPower(totals.newBackup)} sub="kW total" />
+        <Metric label="BESS" value={formatPower(totals.bess)} sub="kW total" />
+        <Metric label="Existing Backup" value={formatPower(totals.existingBackup)} sub="kW total" />
+        <Metric label="HVAC" value={formatPower(totals.hvac)} sub="kW total" />
+        <Metric label="Fuel Switching" value={formatPower(totals.fuelSwitch)} sub="kW total" />
+        <Metric label="Solar" value={formatPower(totals.solar)} sub="kW total" />
+      </div>
+
+      <div className="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Project</th><th>Site</th><th>ISO</th><th>Utility</th>
+              <th>BESS Op Date</th><th>BESS kW</th>
+              <th>Backup Op Date</th><th>Backup kW</th>
+              <th>Solar Op Date</th><th>Solar kW</th>
+            </tr>
+          </thead>
+          <tbody>
+            {slice.map((r, i) => (
+              <tr key={i}>
+                <td title={r.project}>{r.project || '—'}</td>
+                <td title={r.site}>{r.site || '—'}</td>
+                <td>{r.iso || '—'}</td>
+                <td>{r.utility || '—'}</td>
+                <td>{r.bessOpDate || '—'}</td>
+                <td>{r.bessKW ? formatPower(r.bessKW) : '—'}</td>
+                <td>{r.newBackupOpDate || r.existingBackupOpDate || '—'}</td>
+                <td>{(r.newBackupKW || r.existingBackupKW) ? formatPower(r.newBackupKW || r.existingBackupKW) : '—'}</td>
+                <td>{r.solarOpDate || '—'}</td>
+                <td>{r.solarKW ? formatPower(r.solarKW) : '—'}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <Pagination page={page} setPage={setPage} total={filtered.length} />
+    </>
+  )
+}
+
+// Project Outlook view — projected closings, future technologies
+function ProjectOutlookView() {
+  return (
+    <>
+      <div className="outlook-header">
+        <h3>Projected Pipeline</h3>
+        <p>Future projects with expected closing dates and technology mix</p>
+      </div>
+      <div className="outlook-grid">
+        {projectOutlook.map((p, i) => (
+          <div className="outlook-card" key={i}>
+            <div className="outlook-card-header">
+              <div>
+                <div className="outlook-project">{p.project}</div>
+                <div className="outlook-utility">{p.utility} · {p.iso || 'No ISO'}</div>
+              </div>
+              {p.projectedClosing && (
+                <div className="outlook-closing">{p.projectedClosing}</div>
+              )}
+            </div>
+            <div className="outlook-techs">
+              {parseYesNo(p.bess) === 'yes' && <OutlookBadge label="BESS" date={p.bessOpDate} included />}
+              {parseYesNo(p.bess) === 'no' && <OutlookBadge label="BESS" included={false} />}
+              {parseYesNo(p.newBackup) === 'yes' && <OutlookBadge label="New Backup" date={p.newBackupOpDate} included />}
+              {parseYesNo(p.newBackup) === 'no' && <OutlookBadge label="New Backup" included={false} />}
+              {parseYesNo(p.existingBackup) === 'yes' && <OutlookBadge label="Existing Backup" date={p.existingBackupOpDate} included />}
+              {parseYesNo(p.existingBackup) === 'no' && <OutlookBadge label="Existing Backup" included={false} />}
+              {parseYesNo(p.facilityDM) === 'yes' && <OutlookBadge label="Facility DM" date={p.facilityDMOpDate} included />}
+              {parseYesNo(p.facilityDM) === 'no' && <OutlookBadge label="Facility DM" included={false} />}
+            </div>
+          </div>
+        ))}
+      </div>
+    </>
+  )
+}
+
+function parseYesNo(v) {
+  if (!v) return 'unknown'
+  const s = String(v).toLowerCase().trim()
+  if (s === 'yes' || s === '1') return 'yes'
+  if (s === 'no' || s === '0') return 'no'
+  return 'unknown'
+}
+
+function OutlookBadge({ label, date, included }) {
+  return (
+    <div className={`outlook-badge ${included ? 'included' : 'excluded'}`}>
+      <span className="outlook-badge-label">{label}</span>
+      {included && date && <span className="outlook-badge-date">{date}</span>}
+      {!included && <span className="outlook-badge-date">Not included</span>}
+    </div>
+  )
+}
+
 const STATE_FIPS = { AL: '01', AK: '02', AZ: '04', AR: '05', CA: '06', CO: '08', CT: '09', DE: '10', FL: '12', GA: '13', HI: '15', ID: '16', IL: '17', IN: '18', IA: '19', KS: '20', KY: '21', LA: '22', ME: '23', MD: '24', MA: '25', MI: '26', MN: '27', MS: '28', MO: '29', MT: '30', NE: '31', NV: '32', NH: '33', NJ: '34', NM: '35', NY: '36', NC: '37', ND: '38', OH: '39', OK: '40', OR: '41', PA: '42', RI: '44', SC: '45', SD: '46', TN: '47', TX: '48', UT: '49', VT: '50', VA: '51', WA: '53', WV: '54', WI: '55', WY: '56' }
 const STATE_NAMES = { AL: 'Alabama', AK: 'Alaska', AZ: 'Arizona', AR: 'Arkansas', CA: 'California', CO: 'Colorado', CT: 'Connecticut', DE: 'Delaware', FL: 'Florida', GA: 'Georgia', HI: 'Hawaii', ID: 'Idaho', IL: 'Illinois', IN: 'Indiana', IA: 'Iowa', KS: 'Kansas', KY: 'Kentucky', LA: 'Louisiana', ME: 'Maine', MD: 'Maryland', MA: 'Massachusetts', MI: 'Michigan', MN: 'Minnesota', MS: 'Mississippi', MO: 'Missouri', MT: 'Montana', NE: 'Nebraska', NV: 'Nevada', NH: 'New Hampshire', NJ: 'New Jersey', NM: 'New Mexico', NY: 'New York', NC: 'North Carolina', ND: 'North Dakota', OH: 'Ohio', OK: 'Oklahoma', OR: 'Oregon', PA: 'Pennsylvania', RI: 'Rhode Island', SC: 'South Carolina', SD: 'South Dakota', TN: 'Tennessee', TX: 'Texas', UT: 'Utah', VT: 'Vermont', VA: 'Virginia', WA: 'Washington', WV: 'West Virginia', WI: 'Wisconsin', WY: 'Wyoming' }
 
@@ -348,7 +522,6 @@ function MapView({ rows, jumpToTable }) {
     const isDark = matchMedia('(prefers-color-scheme: dark)').matches
     const maxV = Math.max(...Object.values(stateCount), 1)
 
-    // ENFRA brand color scale: Iced Steel → Blue Steel → Ocean Steel
     const color = d3.scaleLinear()
       .domain([0, maxV / 2, maxV])
       .range(isDark
@@ -373,7 +546,6 @@ function MapView({ rows, jumpToTable }) {
       const path = d3.geoPath(proj)
       const features = topojson.feature(us, us.objects.states).features
 
-      // States layer
       svg.append('g').selectAll('path').data(features).join('path')
         .attr('d', path)
         .attr('class', 'state-path')
@@ -390,7 +562,7 @@ function MapView({ rows, jumpToTable }) {
           const s = stateByFips[fips]
           return (stateCount[s] || 0) > 0 ? 'pointer' : 'default'
         })
-        .on('mouseenter', function (event, d) {
+        .on('mouseenter', function () {
           d3.select(this).attr('stroke-width', 2).attr('stroke', '#D6EF4B')
         })
         .on('mouseleave', function () {
@@ -408,7 +580,6 @@ function MapView({ rows, jumpToTable }) {
           return `${STATE_NAMES[s] || s}: ${v} site${v !== 1 ? 's' : ''}${v > 0 ? ' (click for details)' : ''}`
         })
 
-      // Site dots
       if (showDots) {
         const dotsG = svg.append('g')
         rows.forEach(r => {
@@ -429,7 +600,6 @@ function MapView({ rows, jumpToTable }) {
         })
       }
 
-      // Legend
       const legW = 140
       const legH = 8
       const legG = svg.append('g').attr('transform', `translate(${w - legW - 16}, ${h - 36})`)
@@ -472,7 +642,7 @@ function MapView({ rows, jumpToTable }) {
                   <div className="site-card-client">{s.client}</div>
                   <div className="site-card-site">{s.site}</div>
                   <div className="site-card-meta">
-                    {s.peakDemand ? `${s.peakDemand.toLocaleString()} kW` : '—'}
+                    {formatPower(s.peakDemand)}
                     {s.iso && ` · ${s.iso}`}
                     {s.utility && ` · ${s.utility}`}
                   </div>
