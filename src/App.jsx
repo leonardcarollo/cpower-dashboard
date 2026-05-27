@@ -355,11 +355,11 @@ function EOMeasuresView() {
     const q = search.toLowerCase()
     return eoMeasures.filter(r => {
       if (q && !`${r.project} ${r.site} ${r.iso} ${r.utility}`.toLowerCase().includes(q)) return false
-      if (techFilter === 'newBackup' && !r.newBackupDR) return false
+      if (techFilter === 'newBackup' && !r.newBackupGenDR) return false
       if (techFilter === 'bess' && !r.bessDR) return false
-      if (techFilter === 'existingBackup' && !r.existingBackupDR) return false
+      if (techFilter === 'existingBackup' && !r.existingBackupGenDR) return false
       if (techFilter === 'hvac' && !r.hvacDR) return false
-      if (techFilter === 'fuelSwitch' && !r.fuelSwitchDR) return false
+      if (techFilter === 'fuelSwitch' && !r.fuelSwitchingDR) return false
       if (techFilter === 'solar' && !r.solarIncluded) return false
       return true
     })
@@ -370,14 +370,14 @@ function EOMeasuresView() {
   const start = page * PER_PAGE
   const slice = filtered.slice(start, start + PER_PAGE)
 
-  // Aggregate kW totals
+  // Aggregate kW totals (nameplate; _NP fields)
   const totals = filtered.reduce((acc, r) => {
-    acc.newBackup += r.newBackupKW
-    acc.bess += r.bessKW
-    acc.existingBackup += r.existingBackupKW
-    acc.hvac += r.hvacKW
-    acc.fuelSwitch += r.fuelSwitchKW
-    acc.solar += r.solarKW
+    acc.newBackup += r.newBackupGenKW_NP || 0
+    acc.bess += r.bessKW_NP || 0
+    acc.existingBackup += r.existingBackupGenKW_NP || 0
+    acc.hvac += r.hvacKW_NP || 0
+    acc.fuelSwitch += r.fuelSwitchingKW_NP || 0
+    acc.solar += r.solarKW_NP || 0
     return acc
   }, { newBackup: 0, bess: 0, existingBackup: 0, hvac: 0, fuelSwitch: 0, solar: 0 })
 
@@ -429,11 +429,11 @@ function EOMeasuresView() {
                 <td>{r.iso || '—'}</td>
                 <td>{r.utility || '—'}</td>
                 <td>{r.bessOpDate || '—'}</td>
-                <td>{r.bessKW ? formatPower(r.bessKW) : '—'}</td>
-                <td>{r.newBackupOpDate || r.existingBackupOpDate || '—'}</td>
-                <td>{(r.newBackupKW || r.existingBackupKW) ? formatPower(r.newBackupKW || r.existingBackupKW) : '—'}</td>
+                <td>{r.bessKW_NP ? formatPower(r.bessKW_NP) : '—'}</td>
+                <td>{r.newBackupGenOpDate || r.existingBackupGenOpDate || '—'}</td>
+                <td>{(r.newBackupGenKW_NP || r.existingBackupGenKW_NP) ? formatPower(r.newBackupGenKW_NP || r.existingBackupGenKW_NP) : '—'}</td>
                 <td>{r.solarOpDate || '—'}</td>
-                <td>{r.solarKW ? formatPower(r.solarKW) : '—'}</td>
+                <td>{r.solarKW_NP ? formatPower(r.solarKW_NP) : '—'}</td>
               </tr>
             ))}
           </tbody>
@@ -460,19 +460,19 @@ function ProjectOutlookView() {
                 <div className="outlook-project">{p.project}</div>
                 <div className="outlook-utility">{p.utility} · {p.iso || 'No ISO'}</div>
               </div>
-              {p.projectedClosing && (
-                <div className="outlook-closing">{p.projectedClosing}</div>
+              {p.projectedClosingDate && p.projectedClosingDate !== 'N/A' && (
+                <div className="outlook-closing">{p.projectedClosingDate}</div>
               )}
             </div>
             <div className="outlook-techs">
-              {parseYesNo(p.bess) === 'yes' && <OutlookBadge label="BESS" date={p.bessOpDate} included />}
-              {parseYesNo(p.bess) === 'no' && <OutlookBadge label="BESS" included={false} />}
-              {parseYesNo(p.newBackup) === 'yes' && <OutlookBadge label="New Backup" date={p.newBackupOpDate} included />}
-              {parseYesNo(p.newBackup) === 'no' && <OutlookBadge label="New Backup" included={false} />}
-              {parseYesNo(p.existingBackup) === 'yes' && <OutlookBadge label="Existing Backup" date={p.existingBackupOpDate} included />}
-              {parseYesNo(p.existingBackup) === 'no' && <OutlookBadge label="Existing Backup" included={false} />}
-              {parseYesNo(p.facilityDM) === 'yes' && <OutlookBadge label="Facility DM" date={p.facilityDMOpDate} included />}
-              {parseYesNo(p.facilityDM) === 'no' && <OutlookBadge label="Facility DM" included={false} />}
+              {parseYesNo(p.projectedBessDR) === 'yes' && <OutlookBadge label="BESS" date={p.projectedBessOpDate} included />}
+              {parseYesNo(p.projectedBessDR) === 'no' && <OutlookBadge label="BESS" included={false} />}
+              {parseYesNo(p.projectedBackupGenDR) === 'yes' && <OutlookBadge label="New Backup" date={p.projectedBackupGenOpDate} included />}
+              {parseYesNo(p.projectedBackupGenDR) === 'no' && <OutlookBadge label="New Backup" included={false} />}
+              {parseYesNo(p.projectedExistingGenDR) === 'yes' && <OutlookBadge label="Existing Backup" date={p.projectedExistingGenOpDate} included />}
+              {parseYesNo(p.projectedExistingGenDR) === 'no' && <OutlookBadge label="Existing Backup" included={false} />}
+              {parseYesNo(p.projectedFacilityDM) === 'yes' && <OutlookBadge label="Facility DM" date={p.projectedFacilityDMOpDate} included />}
+              {parseYesNo(p.projectedFacilityDM) === 'no' && <OutlookBadge label="Facility DM" included={false} />}
             </div>
           </div>
         ))}
@@ -493,7 +493,7 @@ function OutlookBadge({ label, date, included }) {
   return (
     <div className={`outlook-badge ${included ? 'included' : 'excluded'}`}>
       <span className="outlook-badge-label">{label}</span>
-      {included && date && <span className="outlook-badge-date">{date}</span>}
+      {included && date && date !== 'N/A' && <span className="outlook-badge-date">{date}</span>}
       {!included && <span className="outlook-badge-date">Not included</span>}
     </div>
   )
